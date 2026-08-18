@@ -31,7 +31,7 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
 from dotenv import load_dotenv
-load_dotenv(BASE_DIR / ".env")
+load_dotenv()
 
 import pymysql
 import chromadb
@@ -52,6 +52,7 @@ CHROMA_DIR = os.getenv("PA_KB_CHROMA_DIR", str(BASE_DIR / "KB" / "chroma_store")
 COLLECTION_NAME = "pa_policy_kb"
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 GROQ_MODEL_FALLBACK = os.getenv("GROQ_MODEL_FALLBACK", "openai/gpt-oss-20b")
 

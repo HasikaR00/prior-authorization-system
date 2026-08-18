@@ -16,12 +16,13 @@ export function getDisplayStatus(request, viewerRole = 'initiator') {
     };
   }
 
+  // Determine effective status
+  const finalStatus = request.insurer_final_status || (request.insurer_confirmed_by ? request.display_status : null);
+  const effectiveStatus = finalStatus || (request.display_status !== 'AWAITING_RESULT' && request.display_status !== 'AWAITING_REVIEW' ? request.display_status : null);
+
   // 1. INITIATOR SIDE: Reflects final decision or Awaiting Insurer Review
   if (viewerRole === 'initiator') {
-    const isConfirmed = !!request.insurer_confirmed_by;
-    const status = isConfirmed ? (request.insurer_final_status || request.display_status) : (request.display_status === 'AWAITING_REVIEW' ? 'AWAITING_REVIEW' : request.display_status);
-    
-    if (!isConfirmed || !status || status === 'AWAITING_REVIEW') {
+    if (!effectiveStatus) {
       return {
         label: 'Awaiting Reviewer Action',
         colorClass: 'bg-amber-50 text-[#92400E] border border-amber-200',
@@ -30,7 +31,7 @@ export function getDisplayStatus(request, viewerRole = 'initiator') {
       };
     }
 
-    switch (status) {
+    switch (effectiveStatus) {
       case 'APPROVED':
         return {
           label: 'APPROVED',
@@ -61,7 +62,7 @@ export function getDisplayStatus(request, viewerRole = 'initiator') {
         };
       default:
         return {
-          label: status,
+          label: effectiveStatus,
           colorClass: 'bg-blue-50 text-[#0D3B66] border border-blue-200',
           variant: 'solid',
           isFinal: true
@@ -70,9 +71,7 @@ export function getDisplayStatus(request, viewerRole = 'initiator') {
   }
 
   // 2. INSURER SIDE: Final status or recommendation
-  const finalStatus = request.insurer_final_status || (request.insurer_confirmed_by ? request.display_status : null);
-
-  if (finalStatus && finalStatus !== 'AWAITING_REVIEW') {
+  if (finalStatus && finalStatus !== 'AWAITING_REVIEW' && finalStatus !== 'AWAITING_RESULT') {
     switch (finalStatus) {
       case 'APPROVED':
         return {

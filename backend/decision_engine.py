@@ -81,9 +81,8 @@ except ImportError:
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-ENV_FILE = BASE_DIR / ".env"
 
-load_dotenv(ENV_FILE)
+load_dotenv()
 
 
 # ============================================================
@@ -1913,7 +1912,8 @@ class DecisionEngine:
             print(f"[LLM] SUCCESS -> Groq Primary ({GROQ_MODEL})")
             return result
         except Exception as exc:
-            print(f"[LLM] Primary Groq model ({GROQ_MODEL}) failed: {type(exc).__name__}: {exc}. Trying fallback Groq model: {GROQ_MODEL_FALLBACK}")
+            clean_exc = str(exc).encode('ascii', errors='replace').decode()
+            print(f"[LLM] Primary Groq model ({GROQ_MODEL}) failed: {type(exc).__name__}: {clean_exc}. Trying fallback Groq model: {GROQ_MODEL_FALLBACK}")
             errors.append({
                 "provider": f"Groq Primary ({GROQ_MODEL})",
                 "error": f"{type(exc).__name__}: {str(exc)}"
@@ -1933,7 +1933,8 @@ class DecisionEngine:
             print(f"[LLM] SUCCESS -> Groq Fallback ({GROQ_MODEL_FALLBACK})")
             return result
         except Exception as exc:
-            print(f"[LLM] Fallback Groq model ({GROQ_MODEL_FALLBACK}) failed: {type(exc).__name__}: {exc}")
+            clean_exc = str(exc).encode('ascii', errors='replace').decode()
+            print(f"[LLM] Fallback Groq model ({GROQ_MODEL_FALLBACK}) failed: {type(exc).__name__}: {clean_exc}")
             errors.append({
                 "provider": f"Groq Fallback ({GROQ_MODEL_FALLBACK})",
                 "error": f"{type(exc).__name__}: {str(exc)}"

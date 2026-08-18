@@ -1,7 +1,7 @@
 ================================================================================
 OFFLINE RAG + LLM RETRIEVAL & RANKING EVALUATION REPORT (V3 — CORRECTED NDCG)
 ================================================================================
-Generated at: 2026-08-18 09:12:28
+Generated at: 2026-08-18 17:53:47
 Embedding Model: BAAI/bge-small-en-v1.5
 Chroma Store: D:\cts\KB\chroma_store
 Collection: pa_policy_kb (5159 chunks)
@@ -39,17 +39,17 @@ NDCG@10                 0.0000                    1.0000
 
 LATENCY BREAKDOWN
 --------------------------------------------------------------------------------
-Stage 1 (MySQL Policy Resolution) Latency  : Average 20.37 ms | Median 16.77 ms | P95 33.09 ms
-Stage 2 (Chroma Policy-Filtered) Latency  : Average 2.98 ms | Median 0.00 ms | P95 16.78 ms
-Stage 3 (Groq LLM Reasoning) Latency      : Average 9937.75 ms | Median 3952.79 ms | P95 19771.38 ms
+Stage 1 (MySQL Policy Resolution) Latency  : Average 23.71 ms | Median 25.72 ms | P95 36.20 ms
+Stage 2 (Chroma Policy-Filtered) Latency  : Average 2.99 ms | Median 0.00 ms | P95 12.24 ms
+Stage 3 (Groq LLM Reasoning) Latency      : Average 14702.34 ms | Median 2660.96 ms | P95 36484.34 ms
 
 LLM EVALUATION METRICS (Automated heuristic evaluation)
 --------------------------------------------------------------------------------
 JSON Validity Rate        : 100.00%
-Required Field Completion : 100.00%
-Decision Schema Compliance: 100.00%
-Evidence Groundedness     : 95.28%
-Answer Relevance          : 100.00%
+Required Field Completion : 40.00%
+Decision Schema Compliance: 40.00%
+Evidence Groundedness     : 89.29%
+Answer Relevance          : 60.00%
 Policy Evidence Alignment : 100.00%
 Unsupported Claim Rate    : 0.00%
 Contradiction Rate        : 0.00%
@@ -62,12 +62,12 @@ Retrieval Recall@5: 100.00%
 Retrieval Precision@5: 65.33%
 MRR: 1.0000
 NDCG@5: 1.0000
-LLM Evidence Groundedness: 95.28% (Automated heuristic evaluation)
-LLM Answer Relevance: 100.00% (Automated heuristic evaluation)
+LLM Evidence Groundedness: 89.29% (Automated heuristic evaluation)
+LLM Answer Relevance: 60.00% (Automated heuristic evaluation)
 Policy Evidence Alignment: 100.00% (Automated heuristic evaluation)
 JSON Validity: 100.00%
-Average retrieval latency: 23.35 ms (MySQL 20.37 ms + Chroma 2.98 ms)
-Average LLM latency: 9937.75 ms
+Average retrieval latency: 26.70 ms (MySQL 23.71 ms + Chroma 2.99 ms)
+Average LLM latency: 14702.34 ms
 
 This evaluation is offline and does not participate in the live PA decision workflow.
 The deterministic PA engine remains authoritative.

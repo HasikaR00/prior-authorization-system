@@ -8,6 +8,7 @@ import {
   CheckCircle2, 
   XCircle, 
   AlertCircle, 
+  AlertTriangle,
   Clock, 
   User, 
   FileText, 
@@ -126,24 +127,24 @@ export default function RequestDetail() {
           </div>
         </div>
 
-        {/* Duplicate Notice Banner */}
-        {reqDetail.is_duplicate && (
+        {/* Duplicate Notice Banner (REVIEWER ROLE ONLY) */}
+        {currentRole === 'insurer' && reqDetail.is_duplicate && (
           <div className="p-4 rounded-xl bg-amber-50 border border-amber-300 text-[#92400E] text-xs space-y-3 shadow-sm">
             <div className="flex items-center space-x-2 font-bold text-sm text-amber-900">
               <AlertTriangle className="w-5 h-5 flex-shrink-0 text-amber-600" />
               <span>Prior Duplicate Request Detected</span>
             </div>
             <p className="leading-relaxed text-[#92400E]">
-              An existing authorization request for this patient, service, and diagnosis is already awaiting a result.
+              An active authorization request for this patient, service, and diagnosis is already present in the reviewer queue. Confirming a decision on either request will automatically update both.
             </p>
-            {reqDetail.original_prior_request && (
+            {(reqDetail.canonical_request_id || reqDetail.original_prior_request?.request_id || reqDetail.parent_request_id) && (
               <div className="pt-1">
                 <button
                   type="button"
-                  onClick={() => navigate(`/requests/${reqDetail.canonical_request_id || reqDetail.original_prior_request.request_id}`)}
+                  onClick={() => navigate(`/review/${reqDetail.canonical_request_id || reqDetail.original_prior_request?.request_id || reqDetail.parent_request_id}`)}
                   className="px-4 py-2 bg-[#0D3B66] hover:bg-[#1F4E79] text-white rounded-lg font-bold transition-all text-xs flex items-center space-x-1.5 shadow-sm"
                 >
-                  <span>VIEW EXISTING REQUEST</span>
+                  <span>VIEW CANONICAL REQUEST IN REVIEW QUEUE</span>
                   <ArrowLeft className="w-3.5 h-3.5 rotate-180" />
                 </button>
               </div>
@@ -224,6 +225,9 @@ export default function RequestDetail() {
           <div className="bg-white dark:bg-[#232427] border border-[#DADCE0] dark:border-[#34363A] rounded-2xl p-6 shadow-sm space-y-4">
             <div className="flex items-center justify-between border-b border-[#DADCE0] dark:border-[#34363A] pb-3">
               <span className="font-bold text-xs text-[#1C1E21] dark:text-[#E8E9EA] uppercase tracking-wider">Workflow Status Tracker</span>
+              <span className="text-xs font-medium text-[#5F6368]">
+                {reqDetail.insurer_confirmed_by ? `Confirmed by ${reqDetail.insurer_confirmed_by}` : 'Awaiting Reviewer Action'}
+              </span>
             </div>
 
             {/* Stepper Row */}
@@ -250,36 +254,40 @@ export default function RequestDetail() {
               </div>
 
               {/* Line 2 */}
-              <div className={`flex-1 h-1 mx-2 ${reqDetail.insurer_final_status || reqDetail.status === 'APPROVED' ? 'bg-[#2E7D5B]' : 'bg-[#DADCE0] dark:bg-[#34363A]'}`}></div>
+              <div className={`flex-1 h-1 mx-2 ${reqDetail.insurer_confirmed_by || reqDetail.insurer_final_status ? 'bg-[#2E7D5B]' : 'bg-[#DADCE0] dark:bg-[#34363A]'}`}></div>
 
               {/* Step 3: Under Clinical Review */}
               <div className="flex flex-col items-center z-10 space-y-1 text-center">
                 <div className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-xs shadow-sm ${
-                  reqDetail.insurer_final_status || reqDetail.status === 'APPROVED' 
+                  reqDetail.insurer_confirmed_by || reqDetail.insurer_final_status 
                     ? 'bg-[#2E7D5B] text-white' 
                     : 'bg-[#0D3B66] text-white animate-pulse ring-4 ring-[#0D3B66]/20'
                 }`}>
-                  <Clock className="w-5 h-5" />
+                  {reqDetail.insurer_confirmed_by || reqDetail.insurer_final_status ? <CheckCircle2 className="w-5 h-5" /> : <Clock className="w-5 h-5" />}
                 </div>
                 <span className="text-xs font-bold text-[#1C1E21] dark:text-[#E8E9EA]">Under Clinical Review</span>
                 <span className="text-[11px] text-[#5F6368] dark:text-[#9A9DA3]">{reqDetail.insurer_confirmed_by ? 'Complete' : 'In Progress'}</span>
               </div>
 
               {/* Line 3 */}
-              <div className={`flex-1 h-1 mx-2 ${reqDetail.insurer_final_status === 'APPROVED' || reqDetail.status === 'APPROVED' ? 'bg-[#2E7D5B]' : 'bg-[#DADCE0] dark:bg-[#34363A]'}`}></div>
+              <div className={`flex-1 h-1 mx-2 ${
+                reqDetail.insurer_confirmed_by || reqDetail.insurer_final_status
+                  ? (reqDetail.insurer_final_status === 'APPROVED' ? 'bg-[#2E7D5B]' : reqDetail.insurer_final_status === 'DENIED' ? 'bg-red-500' : 'bg-amber-500') 
+                  : 'bg-[#DADCE0] dark:bg-[#34363A]'
+              }`}></div>
 
-              {/* Step 4: Decision Issued */}
+              {/* Step 4: Reviewer Decision Confirmed */}
               <div className="flex flex-col items-center z-10 space-y-1 text-center">
                 <div className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-xs shadow-sm ${
-                  reqDetail.insurer_confirmed_by && reqDetail.insurer_final_status === 'APPROVED'
-                    ? 'bg-[#2E7D5B] text-white' 
+                  reqDetail.insurer_confirmed_by || reqDetail.insurer_final_status
+                    ? (reqDetail.insurer_final_status === 'APPROVED' ? 'bg-[#2E7D5B] text-white' : reqDetail.insurer_final_status === 'DENIED' ? 'bg-red-600 text-white' : reqDetail.insurer_final_status === 'INFO_REQUESTED' ? 'bg-purple-600 text-white' : 'bg-amber-500 text-white')
                     : 'bg-[#DADCE0] text-slate-500'
                 }`}>
-                  <ShieldCheck className="w-5 h-5" />
+                  {reqDetail.insurer_confirmed_by || reqDetail.insurer_final_status ? <ShieldCheck className="w-5 h-5" /> : <Clock className="w-5 h-5" />}
                 </div>
-                <span className="text-xs font-bold text-[#1C1E21] dark:text-[#E8E9EA]">Decision Issued</span>
-                <span className="text-[11px] text-[#5F6368] dark:text-[#9A9DA3]">
-                  {reqDetail.insurer_confirmed_by ? reqDetail.insurer_final_status : 'Awaiting Review'}
+                <span className="text-xs font-bold text-[#1C1E21] dark:text-[#E8E9EA]">Decision Confirmed</span>
+                <span className="text-[11px] font-semibold text-[#5F6368] dark:text-[#9A9DA3]">
+                  {reqDetail.insurer_final_status || (reqDetail.insurer_confirmed_by ? 'Confirmed' : 'Awaiting Reviewer Action')}
                 </span>
               </div>
             </div>
@@ -336,41 +344,72 @@ export default function RequestDetail() {
 
         {/* SECTION C: INSURER RESPONSE (Card) */}
         <div className="bg-white dark:bg-[#232427] border border-[#DADCE0] dark:border-[#34363A] rounded-2xl p-6 shadow-sm space-y-4">
-          <span className="text-xs font-bold text-[#5F6368] dark:text-[#9A9DA3] uppercase tracking-wider block">Section C: Insurer Response & Final Decision</span>
+          <div className="flex items-center justify-between border-b border-[#DADCE0] dark:border-[#34363A] pb-3">
+            <span className="text-xs font-bold text-[#5F6368] dark:text-[#9A9DA3] uppercase tracking-wider block">Section C: Reviewer Response & Final Decision</span>
+            {reqDetail.insurer_confirmed_at && (
+              <span className="text-[11px] font-mono text-[#5F6368]">Confirmed: {new Date(reqDetail.insurer_confirmed_at).toLocaleString()}</span>
+            )}
+          </div>
           
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 rounded-2xl bg-[#F4F5F6] dark:bg-[#17181A] border border-[#DADCE0] dark:border-[#34363A]">
             <div className="space-y-1">
-              <span className="text-[11px] font-semibold text-[#5F6368] dark:text-[#9A9DA3] uppercase">Authoritative Evaluation Outcome</span>
-              <div className="flex items-center space-x-3">
-                {(reqDetail.insurer_final_status || reqDetail.status) === 'APPROVED' && (
+              <span className="text-[11px] font-semibold text-[#5F6368] dark:text-[#9A9DA3] uppercase block">Authoritative Evaluation Outcome</span>
+              <div className="flex items-center space-x-3 mt-1">
+                {(reqDetail.insurer_final_status === 'APPROVED' || (reqDetail.display_status === 'APPROVED' && reqDetail.insurer_confirmed_by)) && (
                   <span className="inline-flex items-center px-4 py-2 rounded-xl text-base font-extrabold bg-[#DCFCE7] dark:bg-emerald-950/80 text-[#2E7D5B] dark:text-[#4FAE86] border border-emerald-300 shadow-sm">
                     <CheckCircle2 className="w-6 h-6 mr-2" /> Approved
                   </span>
                 )}
-                {(reqDetail.insurer_final_status || reqDetail.status) === 'INFO_REQUESTED' && (
-                  <span className="inline-flex items-center px-4 py-2 rounded-xl text-base font-extrabold bg-[#F3E8FF] dark:bg-purple-950/80 text-[#B96A3D] dark:text-[#D98A5C] border border-purple-300 shadow-sm">
+                {(reqDetail.insurer_final_status === 'DENIED' || reqDetail.display_status === 'DENIED') && (
+                  <span className="inline-flex items-center px-4 py-2 rounded-xl text-base font-extrabold bg-red-50 dark:bg-red-950/80 text-[#991B1B] dark:text-red-300 border border-red-300 shadow-sm">
+                    <AlertCircle className="w-6 h-6 mr-2" /> Denied
+                  </span>
+                )}
+                {(reqDetail.insurer_final_status === 'INFO_REQUESTED' || reqDetail.display_status === 'INFO_REQUESTED') && (
+                  <span className="inline-flex items-center px-4 py-2 rounded-xl text-base font-extrabold bg-[#F3E8FF] dark:bg-purple-950/80 text-[#6B21A8] dark:text-purple-300 border border-purple-300 shadow-sm">
                     <AlertCircle className="w-6 h-6 mr-2" /> Additional Info Required
                   </span>
                 )}
-                {(reqDetail.insurer_final_status || reqDetail.status) === 'PENDED_NURSE_REVIEW' && (
-                  <span className="inline-flex items-center px-4 py-2 rounded-xl text-base font-extrabold bg-[#FEF3C7] dark:bg-amber-950/80 text-[#C08A1E] dark:text-[#E0A93F] border border-amber-300 shadow-sm">
-                    <Clock className="w-6 h-6 mr-2" /> Pended for Nurse Review
+                {(reqDetail.insurer_final_status === 'PENDED_NURSE_REVIEW' || (!reqDetail.insurer_final_status && !reqDetail.insurer_confirmed_by && reqDetail.display_status !== 'APPROVED' && reqDetail.display_status !== 'DENIED' && reqDetail.display_status !== 'INFO_REQUESTED')) && (
+                  <span className="inline-flex items-center px-4 py-2 rounded-xl text-base font-extrabold bg-[#FEF3C7] dark:bg-amber-950/80 text-[#92400E] dark:text-amber-300 border border-amber-300 shadow-sm">
+                    <Clock className="w-6 h-6 mr-2" /> {reqDetail.insurer_confirmed_by ? 'Pended for Nurse Review' : 'Awaiting Reviewer Action'}
                   </span>
                 )}
               </div>
             </div>
 
             {reqDetail.insurer_confirmed_by && (
-              <div className="text-right text-xs space-y-0.5">
-                <span className="text-[#5F6368] dark:text-[#9A9DA3] block">Reviewer Confirmed Record</span>
-                <span className="font-semibold text-[#1C1E21] dark:text-[#E8E9EA] block">User ID: {reqDetail.insurer_confirmed_by}</span>
-                <span className="text-[#5F6368] dark:text-[#9A9DA3] block text-[11px]">{new Date(reqDetail.insurer_confirmed_at).toLocaleString()}</span>
+              <div className="text-right text-xs space-y-0.5 border-l border-slate-200 dark:border-slate-700 pl-4">
+                <span className="text-[#5F6368] dark:text-[#9A9DA3] block font-semibold">Reviewer Signature</span>
+                <span className="font-bold text-[#0D3B66] dark:text-blue-300 block">{reqDetail.insurer_confirmed_by}</span>
+                {reqDetail.insurer_confirmed_at && (
+                  <span className="text-[#5F6368] dark:text-[#9A9DA3] block text-[11px]">{new Date(reqDetail.insurer_confirmed_at).toLocaleString()}</span>
+                )}
               </div>
             )}
           </div>
+
+          {/* Response Sent from Reviewer Side (Notes & Comments) */}
+          {reqDetail.insurer_override_note ? (
+            <div className="p-4 bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 rounded-xl space-y-2">
+              <div className="flex items-center space-x-2 text-[#0D3B66] dark:text-blue-300 font-bold text-xs">
+                <FileText className="w-4 h-4 text-[#2563EB]" />
+                <span>Response Sent from Reviewer Side (Reviewer Rationale & Notes)</span>
+              </div>
+              <p className="text-xs text-[#0D3B66] dark:text-blue-200 leading-relaxed whitespace-pre-wrap font-medium">
+                {reqDetail.insurer_override_note}
+              </p>
+            </div>
+          ) : (
+            reqDetail.insurer_confirmed_by && (
+              <div className="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-[#5F6368] dark:text-slate-300">
+                Reviewer confirmed decision without additional override notes.
+              </div>
+            )
+          )}
         </div>
 
-        {/* SECTION D: WHY THIS RESULT (Card) */}
+        {/* SECTION D: WHY THIS RESULT (Clinical Reasoning) */}
         <div className="bg-white dark:bg-[#232427] border border-[#DADCE0] dark:border-[#34363A] rounded-2xl p-6 shadow-sm space-y-5">
           <div className="flex items-center space-x-2 border-b border-[#DADCE0] dark:border-[#34363A] pb-3">
             <Sparkles className="w-5 h-5 text-[#0D3B66] dark:text-[#6FA3D8]" />

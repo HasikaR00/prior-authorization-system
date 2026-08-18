@@ -23,13 +23,17 @@ from typing import Dict, Any, Tuple, List, Optional
 
 logger = logging.getLogger(__name__)
 
-# Try importing PyMuPDF (fitz)
+# Try importing PyMuPDF
 try:
-    import fitz  # PyMuPDF
+    import pymupdf as fitz
     PYMUPDF_AVAILABLE = True
 except ImportError:
-    PYMUPDF_AVAILABLE = False
-    logger.warning("PyMuPDF (fitz) is not installed.")
+    try:
+        import fitz
+        PYMUPDF_AVAILABLE = True
+    except ImportError:
+        PYMUPDF_AVAILABLE = False
+        logger.warning("PyMuPDF is not installed.")
 
 # Try importing pytesseract & PIL
 try:

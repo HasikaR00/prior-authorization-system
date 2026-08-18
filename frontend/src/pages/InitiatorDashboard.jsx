@@ -250,21 +250,34 @@ export default function InitiatorDashboard() {
                             {(() => {
                               const statusObj = getDisplayStatus(r, 'initiator');
                               return (
-                                <span className={`inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-full text-[13px] font-semibold ${statusObj.colorClass}`}>
-                                  {statusObj.isFinal && statusObj.label === 'Approved' && <CheckCircle2 className="w-3.5 h-3.5" />}
-                                  {statusObj.isFinal && statusObj.label !== 'Approved' && <AlertCircle className="w-3.5 h-3.5" />}
+                                <span className={`inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-full text-[12px] font-bold ${statusObj.colorClass}`}>
+                                  {statusObj.isFinal && statusObj.label === 'APPROVED' && <CheckCircle2 className="w-3.5 h-3.5" />}
+                                  {statusObj.isFinal && statusObj.label === 'DENIED' && <AlertCircle className="w-3.5 h-3.5" />}
+                                  {statusObj.isFinal && statusObj.label !== 'APPROVED' && statusObj.label !== 'DENIED' && <AlertCircle className="w-3.5 h-3.5" />}
                                   {!statusObj.isFinal && <Clock className="w-3.5 h-3.5" />}
                                   <span>{statusObj.label}</span>
                                 </span>
                               );
                             })()}
 
-                            {/* Mini Progress Stepper Line */}
-                            <div className="flex items-center space-x-1 w-24">
+                            {/* 4-Step Progress Bar Line */}
+                            <div className="flex items-center space-x-1 w-28" title="Submitted -> Eligibility Verified -> Under Clinical Review -> Decision Confirmed">
                               <div className="h-1.5 flex-1 rounded-full bg-[#2E7D5B]"></div>
-                              <div className={`h-1.5 flex-1 rounded-full ${r.insurer_confirmed_by ? 'bg-[#2E7D5B]' : 'bg-slate-200'}`}></div>
-                              <div className={`h-1.5 flex-1 rounded-full ${r.insurer_confirmed_by && r.insurer_final_status === 'APPROVED' ? 'bg-[#2E7D5B]' : 'bg-slate-200'}`}></div>
+                              <div className="h-1.5 flex-1 rounded-full bg-[#2E7D5B]"></div>
+                              <div className={`h-1.5 flex-1 rounded-full ${r.insurer_confirmed_by || r.insurer_final_status ? 'bg-[#2E7D5B]' : 'bg-blue-500 animate-pulse'}`}></div>
+                              <div className={`h-1.5 flex-1 rounded-full ${
+                                r.insurer_confirmed_by || r.insurer_final_status
+                                  ? (r.insurer_final_status === 'APPROVED' ? 'bg-[#2E7D5B]' : r.insurer_final_status === 'DENIED' ? 'bg-red-500' : 'bg-amber-500')
+                                  : 'bg-slate-200'
+                              }`}></div>
                             </div>
+
+                            {/* Reviewer Note Preview */}
+                            {r.insurer_override_note && (
+                              <div className="text-[11px] text-[#0D3B66] font-medium truncate max-w-xs" title={`Reviewer Note: ${r.insurer_override_note}`}>
+                                <span className="font-bold text-blue-600">Reviewer Note:</span> {r.insurer_override_note}
+                              </div>
+                            )}
                           </div>
                         </td>
 

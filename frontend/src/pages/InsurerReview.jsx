@@ -112,16 +112,28 @@ export default function InsurerReview() {
           <span>Back to Review Queue</span>
         </button>
 
-        {/* Duplicate Request Notice */}
+        {/* Duplicate Request Notice (REVIEWER EXCLUSIVE) */}
         {reqDetail.is_duplicate && (
-          <div className="p-4 rounded-xl bg-amber-50 border border-amber-300 text-[#92400E] text-xs space-y-2 shadow-sm">
-            <div className="flex items-center space-x-2 font-bold text-sm">
+          <div className="p-4 rounded-xl bg-amber-50 border border-amber-300 text-[#92400E] text-xs space-y-3 shadow-sm">
+            <div className="flex items-center space-x-2 font-bold text-sm text-amber-900">
               <AlertTriangle className="w-5 h-5 flex-shrink-0 text-amber-600" />
               <span>Prior Duplicate Request Detected</span>
             </div>
-            <p className="leading-relaxed">
-              An unconfirmed authorization request for patient <strong className="font-mono">{reqDetail.patient_id.slice(0, 8)}...</strong> with code <strong className="font-mono">{reqDetail.requested_hcpcs}</strong> and diagnosis <strong className="font-mono">{reqDetail.diagnosis_icd10}</strong> is already in the queue.
+            <p className="leading-relaxed text-[#92400E]">
+              An authorization request for patient <strong className="font-mono">{reqDetail.patient_id.slice(0, 8)}...</strong> with service <strong className="font-mono">{reqDetail.requested_hcpcs}</strong> and diagnosis <strong className="font-mono">{reqDetail.diagnosis_icd10}</strong> is already present in the queue. Confirming your review here will automatically apply the same determination to both requests.
             </p>
+            {(reqDetail.canonical_request_id || reqDetail.original_prior_request?.request_id || reqDetail.parent_request_id) && (
+              <div className="pt-1">
+                <button
+                  type="button"
+                  onClick={() => navigate(`/review/${reqDetail.canonical_request_id || reqDetail.original_prior_request?.request_id || reqDetail.parent_request_id}`)}
+                  className="px-4 py-2 bg-[#0D3B66] hover:bg-[#1F4E79] text-white rounded-lg font-bold transition-all text-xs flex items-center space-x-1.5 shadow-sm"
+                >
+                  <span>NAVIGATE TO CANONICAL REQUEST IN REVIEW QUEUE</span>
+                  <ArrowLeft className="w-3.5 h-3.5 rotate-180" />
+                </button>
+              </div>
+            )}
           </div>
         )}
 

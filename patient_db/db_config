@@ -7,12 +7,16 @@ Requires: pip install mysql-connector-python
 """
 import os
 import mysql.connector
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_CONFIG = {
-    "host": os.environ.get("MYSQL_HOST", "localhost"),
-    "user": os.environ.get("MYSQL_USER", "root"),
-    "password": os.environ.get("MYSQL_PASSWORD", ""),
-    "database": os.environ.get("MYSQL_DATABASE", "pa_system"),
+    "host": os.getenv("DB_HOST", os.getenv("MYSQL_HOST", "localhost")),
+    "port": int(os.getenv("DB_PORT", "3306")),
+    "user": os.getenv("DB_USER", os.getenv("MYSQL_USER", "root")),
+    "password": os.getenv("DB_PASSWORD", os.getenv("MYSQL_PASSWORD", "")),
+    "database": os.getenv("DB_NAME", os.getenv("MYSQL_DATABASE", "pa_system")),
 }
 
 

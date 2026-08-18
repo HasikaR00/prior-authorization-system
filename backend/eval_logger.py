@@ -131,7 +131,7 @@ class EvaluatedDecisionEngine(DecisionEngine):
                         request_id,
                         status,
                         reason_type,
-                        llm_provider_used,
+                        str(llm_provider_used)[:32] if llm_provider_used else "UNKNOWN",
                         engine_time_ms,
                         llm_time_ms,
                         total_time_ms,

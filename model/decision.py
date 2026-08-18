@@ -89,9 +89,8 @@ except ImportError:
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-ENV_FILE = BASE_DIR / ".env"
 
-load_dotenv(ENV_FILE)
+load_dotenv()
 
 
 # ============================================================

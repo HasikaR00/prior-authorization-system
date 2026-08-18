@@ -100,7 +100,7 @@ def confirm_request(
             confirmed_by = user_payload["user_id"]
             confirmed_at = datetime.now()
             
-            # Update pa_request confirmation fields
+            # Update target pa_request confirmation fields
             cur.execute("""
                 UPDATE pa_request
                 SET insurer_confirmed_by = %s,
@@ -109,6 +109,37 @@ def confirm_request(
                     insurer_override_note = %s
                 WHERE request_id = %s
             """, (confirmed_by, confirmed_at, body.final_status, body.note, request_id))
+
+            # Propagate decision to all linked child requests
+            cur.execute("""
+                UPDATE pa_request
+                SET insurer_confirmed_by = %s,
+                    insurer_confirmed_at = %s,
+                    insurer_final_status = %s,
+                    insurer_override_note = %s
+                WHERE parent_request_id = %s
+            """, (confirmed_by, confirmed_at, body.final_status, body.note, request_id))
+
+            # If targeted request is a child, propagate decision to parent request as well
+            if req_row.get("parent_request_id"):
+                cur.execute("""
+                    UPDATE pa_request
+                    SET insurer_confirmed_by = %s,
+                        insurer_confirmed_at = %s,
+                        insurer_final_status = %s,
+                        insurer_override_note = %s
+                    WHERE request_id = %s OR parent_request_id = %s
+                """, (confirmed_by, confirmed_at, body.final_status, body.note, req_row["parent_request_id"], req_row["parent_request_id"]))
+
+            # Propagate decision to any matching duplicate requests for same patient + HCPCS + ICD-10
+            cur.execute("""
+                UPDATE pa_request
+                SET insurer_confirmed_by = %s,
+                    insurer_confirmed_at = %s,
+                    insurer_final_status = %s,
+                    insurer_override_note = %s
+                WHERE patient_id = %s AND requested_hcpcs = %s AND diagnosis_icd10 = %s
+            """, (confirmed_by, confirmed_at, body.final_status, body.note, req_row["patient_id"], req_row["requested_hcpcs"], req_row["diagnosis_icd10"]))
             
             # Insert new row into pa_decision_log (never overwrite engine's log)
             reason_type = f"INSURER_CONFIRMED_{body.final_status}"
