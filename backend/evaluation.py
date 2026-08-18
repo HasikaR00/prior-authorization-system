@@ -52,9 +52,8 @@ CHROMA_DIR = os.getenv("PA_KB_CHROMA_DIR", str(BASE_DIR / "KB" / "chroma_store")
 COLLECTION_NAME = "pa_policy_kb"
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
-GROQ_MODEL_FALLBACK = os.getenv("GROQ_MODEL_FALLBACK", "llama3-70b-8192")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+GROQ_MODEL_FALLBACK = os.getenv("GROQ_MODEL_FALLBACK", "openai/gpt-oss-20b")
 
 REPORTS_DIR = BASE_DIR / "backend" / "evaluation_reports"
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)

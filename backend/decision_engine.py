@@ -70,19 +70,10 @@ from dotenv import load_dotenv
 # ============================================================
 
 try:
-    from openai import OpenAI
-except ImportError:
-    OpenAI = None
-
-try:
-    from google import genai
-except ImportError:
-    genai = None
-
-try:
     from groq import Groq
 except ImportError:
     Groq = None
+
 
 
 # ============================================================
@@ -114,31 +105,16 @@ VALID_DECISIONS = {
 }
 
 
-# ============================================================
-# MODEL CONFIGURATION
-# ============================================================
-
-PRIMARY_MODEL = os.getenv(
-    "OPENAI_MODEL",
-    "gpt-5"
-)
-
-# Use a currently available Gemini model.
-# Change this in .env if needed.
-GEMINI_MODEL = os.getenv(
-    "GEMINI_MODEL",
-    "gemini-2.5-flash"
-)
-
 GROQ_MODEL = os.getenv(
     "GROQ_MODEL",
-    "llama-3.3-70b-versatile"
+    "openai/gpt-oss-120b"
 )
 
 GROQ_MODEL_FALLBACK = os.getenv(
     "GROQ_MODEL_FALLBACK",
-    "llama3-70b-8192"
+    "openai/gpt-oss-20b"
 )
+
 
 
 # ============================================================
@@ -350,83 +326,30 @@ class DecisionEngine:
 
         self.db_config = db_config
 
-        self.openai_client = None
-        self.gemini_client = None
         self.groq_client = None
-
         self.provider_errors = []
-
         self._initialize_llm_clients()
-
 
     # ========================================================
     # INITIALIZE PROVIDERS
     # ========================================================
 
     def _initialize_llm_clients(self):
-
-        openai_key = os.getenv(
-            "OPENAI_API_KEY"
-        )
-
-        gemini_key = os.getenv(
-            "GEMINI_API_KEY"
-        )
-
-        groq_key = os.getenv(
-            "GROQ_API_KEY"
-        )
-
-
-        # ----------------------------------------------------
-        # OPENAI
-        # ----------------------------------------------------
-
-        if openai_key and OpenAI is not None:
-
-            try:
-
-                self.openai_client = OpenAI(
-                    api_key=openai_key
-                )
-
-            except Exception:
-
-                self.openai_client = None
-
-
-        # ----------------------------------------------------
-        # GEMINI
-        # ----------------------------------------------------
-
-        if gemini_key and genai is not None:
-
-            try:
-
-                self.gemini_client = genai.Client(
-                    api_key=gemini_key
-                )
-
-            except Exception:
-
-                self.gemini_client = None
-
-
-        # ----------------------------------------------------
-        # GROQ
-        # ----------------------------------------------------
+        groq_key = os.getenv("GROQ_API_KEY")
 
         if groq_key and Groq is not None:
-
             try:
-
+                import httpx
+                http_client = httpx.Client()
                 self.groq_client = Groq(
-                    api_key=groq_key
+                    api_key=groq_key,
+                    http_client=http_client
                 )
-
-            except Exception:
-
+            except Exception as e:
                 self.groq_client = None
+                print(f"[LLM] Failed to initialize Groq client: {e}")
+
+
 
 
     # ========================================================
@@ -1633,140 +1556,6 @@ class DecisionEngine:
 
 
     # ========================================================
-    # OPENAI
-    # ========================================================
-
-    def _call_openai(
-        self,
-        payload
-    ):
-
-        if not self.openai_client:
-
-            raise RuntimeError(
-                "OpenAI client unavailable"
-            )
-
-
-        response = self.openai_client.responses.create(
-
-            model=PRIMARY_MODEL,
-
-            instructions=
-                LLM_SYSTEM_PROMPT,
-
-            input=json.dumps(
-                payload,
-                default=str
-            ),
-
-            text={
-                "format": {
-                    "type":
-                        "json_object"
-                }
-            },
-
-            store=False
-        )
-
-
-        text = response.output_text
-
-
-        if not text:
-
-            raise RuntimeError(
-                "OpenAI returned empty response"
-            )
-
-
-        return json.loads(text)
-
-
-    # ========================================================
-    # GEMINI
-    # ========================================================
-
-    def _call_gemini(
-        self,
-        payload
-    ):
-
-        if not self.gemini_client:
-
-            raise RuntimeError(
-                "Gemini client unavailable"
-            )
-
-
-        """
-        IMPORTANT:
-
-        Do NOT send:
-
-            additionalProperties
-
-        Do NOT send the old strict schema.
-
-        Gemini receives a clean JSON-output request.
-
-        The structure is described in the prompt and then
-        validated locally.
-        """
-
-
-        prompt = (
-
-            LLM_SYSTEM_PROMPT
-
-            + "\n\n"
-
-            + "INPUT PAYLOAD:\n"
-
-            + json.dumps(
-                payload,
-                indent=2,
-                default=str
-            )
-
-        )
-
-
-        response = (
-            self.gemini_client
-            .models
-            .generate_content(
-
-                model=GEMINI_MODEL,
-
-                contents=prompt,
-
-                config={
-
-                    "response_mime_type":
-                        "application/json",
-
-                    "temperature":
-                        0
-                }
-            )
-        )
-
-
-        if not response.text:
-
-            raise RuntimeError(
-                "Gemini returned empty response"
-            )
-
-
-        return json.loads(
-            response.text
-        )
-
-
-    # ========================================================
     # GROQ
     # ========================================================
 
@@ -2107,67 +1896,51 @@ class DecisionEngine:
         self,
         payload
     ):
-
-        providers = [
-            (
-                "Groq (Model A)",
-                self._call_groq
-            ),
-            (
-                "Groq (Model B Fallback)",
-                self._call_groq_fallback
-            ),
-            (
-                "Gemini",
-                self._call_gemini
-            ),
-            (
-                "OpenAI",
-                self._call_openai
-            )
-        ]
-
         errors = []
 
-        for provider_name, provider_function in providers:
-            try:
-                result = provider_function(
-                    payload
-                )
+        # 1. Primary Groq Model
+        print(f"[LLM] Provider: Groq | Primary model: {GROQ_MODEL}")
+        try:
+            result = self._call_groq(payload)
+            if not isinstance(result, dict):
+                raise ValueError("Provider returned non-object JSON")
+            result = self._validate_llm_output(
+                result,
+                payload["decision"]["status"],
+                payload["decision"]["reason_type"]
+            )
+            result["_provider"] = f"Groq ({GROQ_MODEL})"
+            print(f"[LLM] SUCCESS -> Groq Primary ({GROQ_MODEL})")
+            return result
+        except Exception as exc:
+            print(f"[LLM] Primary Groq model ({GROQ_MODEL}) failed: {type(exc).__name__}: {exc}. Trying fallback Groq model: {GROQ_MODEL_FALLBACK}")
+            errors.append({
+                "provider": f"Groq Primary ({GROQ_MODEL})",
+                "error": f"{type(exc).__name__}: {str(exc)}"
+            })
 
-                if not isinstance(
-                    result,
-                    dict
-                ):
-                    raise ValueError(
-                        "Provider returned non-object JSON"
-                    )
+        # 2. Fallback Groq Model
+        try:
+            result = self._call_groq_fallback(payload)
+            if not isinstance(result, dict):
+                raise ValueError("Provider returned non-object JSON")
+            result = self._validate_llm_output(
+                result,
+                payload["decision"]["status"],
+                payload["decision"]["reason_type"]
+            )
+            result["_provider"] = f"Groq Fallback ({GROQ_MODEL_FALLBACK})"
+            print(f"[LLM] SUCCESS -> Groq Fallback ({GROQ_MODEL_FALLBACK})")
+            return result
+        except Exception as exc:
+            print(f"[LLM] Fallback Groq model ({GROQ_MODEL_FALLBACK}) failed: {type(exc).__name__}: {exc}")
+            errors.append({
+                "provider": f"Groq Fallback ({GROQ_MODEL_FALLBACK})",
+                "error": f"{type(exc).__name__}: {str(exc)}"
+            })
 
-                result = self._validate_llm_output(
-                    result,
-                    payload["decision"]["status"],
-                    payload["decision"]["reason_type"]
-                )
-
-                result["_provider"] = provider_name
-                print(
-                    f"[LLM] SUCCESS -> {provider_name}"
-                )
-                return result
-
-            except Exception as exc:
-                error = {
-                    "provider": provider_name,
-                    "error": f"{type(exc).__name__}: {str(exc)}"
-                }
-                errors.append(error)
-                continue
-
-        # ====================================================
-        # ALL LLM PROVIDERS FAILED -> GUARANTEED TEMPLATE FALLBACK
-        # ====================================================
-
-        print("[LLM] All LLM providers failed. Using structured template fallback.")
+        # 3. Non-LLM Safety Fallback
+        print("[LLM] Both Groq models failed. Using TEMPLATE_FALLBACK.")
         fallback_result = self._build_template_explanation(
             payload["decision"]["status"],
             payload["decision"]["reason_type"],
@@ -2176,6 +1949,7 @@ class DecisionEngine:
         )
         fallback_result["_errors"] = errors
         return fallback_result
+
 
 
     # ========================================================
