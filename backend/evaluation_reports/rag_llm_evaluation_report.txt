@@ -1,0 +1,74 @@
+================================================================================
+OFFLINE RAG + LLM RETRIEVAL & RANKING EVALUATION REPORT (V3 — CORRECTED NDCG)
+================================================================================
+Generated at: 2026-08-18 09:12:28
+Embedding Model: BAAI/bge-small-en-v1.5
+Chroma Store: D:\cts\KB\chroma_store
+Collection: pa_policy_kb (5159 chunks)
+
+MANDATORY DISCLOSURE & ISOLATION
+--------------------------------------------------------------------------------
+This evaluation is offline and does not participate in the live PA decision workflow.
+The deterministic PA engine remains authoritative.
+
+DATASET SUMMARY
+--------------------------------------------------------------------------------
+Total Evaluation Queries Created : 15
+Total Excluded Queries          : 14
+Evaluation Metric Scope         : Policy/article-level retrieval evaluation
+Ground Truth Methodology        : Verified MySQL pa_kb article_hcpc & article_icd10_covered exact mappings
+
+RETRIEVAL EVALUATION COMPARISON (MODE A VS MODE B)
+--------------------------------------------------------------------------------
+Metric                  Unrestricted (Mode A)     Policy-Filtered (Mode B)
+--------------------------------------------------------------------------------
+Recall@1                0.00%                    100.00%
+Recall@3                0.00%                    100.00%
+Recall@5                0.00%                    100.00%
+Recall@10               0.00%                    100.00%
+Precision@1             0.00%                    100.00%
+Precision@3             0.00%                    82.22%
+Precision@5             0.00%                    65.33%
+Precision@10            0.00%                    38.00%
+MRR                     0.0000                    1.0000
+NDCG@1                  0.0000                    1.0000
+NDCG@3                  0.0000                    1.0000
+NDCG@5                  0.0000                    1.0000
+NDCG@10                 0.0000                    1.0000
+--------------------------------------------------------------------------------
+
+LATENCY BREAKDOWN
+--------------------------------------------------------------------------------
+Stage 1 (MySQL Policy Resolution) Latency  : Average 20.37 ms | Median 16.77 ms | P95 33.09 ms
+Stage 2 (Chroma Policy-Filtered) Latency  : Average 2.98 ms | Median 0.00 ms | P95 16.78 ms
+Stage 3 (Groq LLM Reasoning) Latency      : Average 9937.75 ms | Median 3952.79 ms | P95 19771.38 ms
+
+LLM EVALUATION METRICS (Automated heuristic evaluation)
+--------------------------------------------------------------------------------
+JSON Validity Rate        : 100.00%
+Required Field Completion : 100.00%
+Decision Schema Compliance: 100.00%
+Evidence Groundedness     : 95.28%
+Answer Relevance          : 100.00%
+Policy Evidence Alignment : 100.00%
+Unsupported Claim Rate    : 0.00%
+Contradiction Rate        : 0.00%
+
+================================================================================
+PPT-READY RAG + LLM EVALUATION SUMMARY
+================================================================================
+Dataset size: 15 evaluation queries from verified MySQL policy mappings
+Retrieval Recall@5: 100.00%
+Retrieval Precision@5: 65.33%
+MRR: 1.0000
+NDCG@5: 1.0000
+LLM Evidence Groundedness: 95.28% (Automated heuristic evaluation)
+LLM Answer Relevance: 100.00% (Automated heuristic evaluation)
+Policy Evidence Alignment: 100.00% (Automated heuristic evaluation)
+JSON Validity: 100.00%
+Average retrieval latency: 23.35 ms (MySQL 20.37 ms + Chroma 2.98 ms)
+Average LLM latency: 9937.75 ms
+
+This evaluation is offline and does not participate in the live PA decision workflow.
+The deterministic PA engine remains authoritative.
+================================================================================

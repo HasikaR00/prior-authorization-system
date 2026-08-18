@@ -1,0 +1,109 @@
+reason_change_id,reason_change_version,description,last_updated,sort_order,for_draft
+1,1,CMS Requirement,2007-06-27 00:00:00,1,
+1,2,Provider Education/Guidance,2012-11-01 00:00:00,1,Y
+2,1,Coverage Change (actual change in medical parameters),2007-06-27 00:00:00,2,
+2,2,New/Updated Technology,2012-11-01 00:00:00,2,Y
+3,1,Field Value Change,2007-06-27 00:00:00,3,
+3,2,Aberrant Local Utilization,2012-11-01 00:00:00,3,Y
+4,1,HCPCS Addition/Deletion,2007-06-27 00:00:00,4,
+5,1,HCPCS/ICD9 Descriptor Change,2007-06-27 00:00:00,5,
+5,2,Risk Identified by the Office of Inspector General (OIG),2012-11-01 00:00:00,5,Y
+6,1,ICD9 Addition/Deletion,2007-06-27 00:00:00,6,
+6,2,Risk Identified by the General Accounting Office (GAO),2012-11-01 00:00:00,6,Y
+7,1,"Maintenance (annual review with new changes, formatting, etc)",2007-06-27 00:00:00,7,
+7,2,Risk Identified by a Comprehensive Error Rate Testing (CERT) Contractor,2012-11-01 00:00:00,7,Y
+8,1,Narrative Change,2007-06-27 00:00:00,8,
+8,2,Risk Identified by a Recovery Auditor,2012-11-01 00:00:00,8,Y
+9,1,Typographical Correction,2007-06-27 00:00:00,9,
+9,2,Risk Identified by a Zone Program Integrity Contractor (ZPIC),2012-11-01 00:00:00,9,Y
+10,1,Other,2007-06-27 00:00:00,10,
+10,2,NCD Supplementation,2012-11-01 00:00:00,10,Y
+12,2,Request for Coverage by a Beneficiary,2012-11-01 00:00:00,12,Y
+13,2,Request for Coverage by a Supplier,2012-11-01 00:00:00,13,Y
+14,2,Request for Coverage by a Practitioner (Part B),2012-11-01 00:00:00,14,Y
+15,2,Request for Coverage by a Provider (Part A),2012-11-01 00:00:00,15,Y
+17,2,Creation of Uniform LCDs Within a MAC Jurisdiction,2012-11-01 00:00:00,17,Y
+18,2,Creation of Uniform LCDs With Other MAC Jurisdiction,2012-11-01 00:00:00,18,Y
+19,2,Automated Edits to Enforce Reasonable &amp; Necessary Requirements,2012-11-01 00:00:00,19,Y
+20,2,Other,2012-11-01 00:00:00,99,Y
+21,2,Provider Education/Guidance,2012-11-01 00:00:00,1,N
+22,2,New/Updated Technology,2012-11-01 00:00:00,2,N
+23,2,Public Education/Guidance,2012-11-01 00:00:00,3,N
+24,2,Aberrant Local Utilization,2012-11-01 00:00:00,4,N
+26,2,Risk Identified by the Office of Inspector General (OIG),2012-11-01 00:00:00,6,N
+27,2,Risk Identified by the General Accounting Office (GAO),2012-11-01 00:00:00,7,N
+28,2,Risk Identified by a Comprehensive Error Rate Testing (CERT) Contractor,2012-11-01 00:00:00,8,N
+29,2,Risk Identified by a Recovery Auditor,2012-11-01 00:00:00,9,N
+30,2,Risk Identified by a Zone Program Integrity Contractor (ZPIC),2012-11-01 00:00:00,10,N
+31,2,NCD Supplementation,2012-11-01 00:00:00,11,N
+33,2,Request for Coverage by a Beneficiary,2012-11-01 00:00:00,13,N
+34,2,Request for Coverage by a Supplier,2012-11-01 00:00:00,14,N
+35,2,Request for Coverage by a Practitioner (Part B),2012-11-01 00:00:00,15,N
+36,2,Request for Coverage by a Provider (Part A),2012-11-01 00:00:00,16,N
+38,2,Creation of Uniform LCDs Within a MAC Jurisdiction,2012-11-01 00:00:00,18,N
+39,2,Creation of Uniform LCDs With Other MAC Jurisdiction,2012-11-01 00:00:00,19,N
+40,2,Automated Edits to Enforce Reasonable &amp; Necessary Requirements,2012-11-01 00:00:00,20,N
+42,2,Revisions Due To ICD-9-CM Code Changes,2012-11-01 00:00:00,23,N
+43,2,Revisions Due To CPT/HCPCS Code Changes,2012-11-01 00:00:00,24,N
+44,2,Typographical Error,2012-11-01 00:00:00,25,N
+45,2,Reconsideration Request,2012-11-01 00:00:00,26,N
+46,2,LCD Being Retired,2012-11-01 00:00:00,27,N
+47,2,Other,2012-11-01 00:00:00,99,N
+48,2,Change in Assigned States or Affiliated Contract Numbers,2012-11-01 00:00:00,20,Y
+49,2,Change in Assigned States or Affiliated Contract Numbers,2012-11-01 00:00:00,28,N
+50,2,Revisions Due To ICD-10-CM Code Changes,2012-11-01 00:00:00,22,N
+51,2,Change to Lettered Jurisdiction Designation,2014-08-25 00:00:00,21,Y
+52,2,Change to Lettered Jurisdiction Designation,2014-08-25 00:00:00,29,N
+53,2,Change in Corporate Name,2015-06-29 00:00:00,22,Y
+54,2,Change in Corporate Name,2015-06-29 00:00:00,30,N
+55,3,Provider Education/Guidance,2016-09-22 00:00:00,1,N
+56,3,New/Updated Technology,2016-09-22 00:00:00,2,N
+57,3,Public Education/Guidance,2016-09-22 00:00:00,3,N
+58,3,Aberrant Local Utilization,2016-09-22 00:00:00,4,N
+59,3,Risk Identified by the Office of Inspector General (OIG),2016-09-22 00:00:00,5,N
+60,3,Risk Identified by the General Accounting Office (GAO),2016-09-22 00:00:00,6,N
+61,3,Risk Identified by a Comprehensive Error Rate Testing (CERT) Contractor,2016-09-22 00:00:00,7,N
+62,3,Risk Identified by a Recovery Audit Contractor,2016-09-22 00:00:00,8,N
+63,3,Risk Identified by a Zone Program Integrity Contractor (ZPIC),2016-09-22 00:00:00,9,N
+64,3,NCD Supplementation,2016-09-22 00:00:00,10,N
+65,3,Request for Coverage by a Beneficiary,2016-09-22 00:00:00,11,N
+66,3,Request for Coverage by a Supplier,2016-09-22 00:00:00,12,N
+67,3,Request for Coverage by a Practitioner (Part B),2016-09-22 00:00:00,13,N
+68,3,Request for Coverage by a Provider (Part A),2016-09-22 00:00:00,14,N
+69,3,Creation of Uniform LCDs Within a MAC Jurisdiction,2016-09-22 00:00:00,15,N
+70,3,Creation of Uniform LCDs With Other MAC Jurisdiction,2016-09-22 00:00:00,16,N
+71,3,Automated Edits to Enforce Reasonable &amp; Necessary Requirements,2016-09-22 00:00:00,17,N
+72,3,Revisions Due To ICD-10-CM Code Changes,2016-09-22 00:00:00,18,N
+73,3,Revisions Due To CPT/HCPCS Code Changes,2016-09-22 00:00:00,19,N
+74,3,Revisions Due To Bill Type or Revenue Codes,2016-09-22 00:00:00,20,N
+75,3,Typographical Error,2016-09-22 00:00:00,22,N
+76,3,Reconsideration Request,2016-09-22 00:00:00,23,N
+77,3,LCD Being Retired,2016-09-22 00:00:00,23,N
+78,3,Change in Assigned States,2016-09-22 00:00:00,24,N
+79,3,Change in Affiliated Contract Numbers,2016-09-22 00:00:00,25,N
+80,3,Change to Lettered Jurisdiction Designation,2016-09-22 00:00:00,26,N
+81,3,Change in Corporate Name,2016-09-22 00:00:00,27,N
+82,3,Other,2016-09-22 00:00:00,99,N
+83,3,Provider Education/Guidance,2016-09-22 00:00:00,1,Y
+84,3,Public Education/Guidance,2016-09-22 00:00:00,2,Y
+85,3,New/Updated Technology,2016-09-22 00:00:00,3,Y
+86,3,Aberrant Local Utilization,2016-09-22 00:00:00,4,Y
+87,3,Risk Identified by the Office of Inspector General (OIG),2016-09-22 00:00:00,5,Y
+88,3,Risk Identified by the General Accounting Office (GAO),2016-09-22 00:00:00,6,Y
+89,3,Risk Identified by a Comprehensive Error Rate Testing (CERT) Contractor,2016-09-22 00:00:00,7,Y
+90,3,Risk Identified by a Recovery Audit Contractor,2016-09-22 00:00:00,8,Y
+91,3,Risk Identified by a Zone Program Integrity Contractor (ZPIC),2016-09-22 00:00:00,9,Y
+92,3,NCD Supplementation,2016-09-22 00:00:00,10,Y
+93,3,Request for Coverage by a Beneficiary,2016-09-22 00:00:00,11,Y
+94,3,Request for Coverage by a Supplier,2016-09-22 00:00:00,12,Y
+95,3,Request for Coverage by a Practitioner (Part B),2016-09-22 00:00:00,13,Y
+96,3,Request for Coverage by a Provider (Part A),2016-09-22 00:00:00,14,Y
+97,3,Creation of Uniform LCDs Within a MAC Jurisdiction,2016-09-22 00:00:00,15,Y
+98,3,Creation of Uniform LCDs With Other MAC Jurisdiction,2016-09-22 00:00:00,16,Y
+99,3,Automated Edits to Enforce Reasonable &amp; Necessary Requirements,2016-09-22 00:00:00,17,Y
+100,3,Change in Assigned States,2016-09-22 00:00:00,18,Y
+101,3,Change in Affiliated Contract Numbers,2016-09-22 00:00:00,19,Y
+102,3,Change to Lettered Jurisdiction Designation,2016-09-22 00:00:00,20,Y
+103,3,Change in Corporate Name,2016-09-22 00:00:00,21,Y
+104,3,Other,2016-09-22 00:00:00,99,Y
+105,3,Revisions Due To Code Removal,2019-07-01 00:00:00,21,N

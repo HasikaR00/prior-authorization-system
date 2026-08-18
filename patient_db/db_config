@@ -1,0 +1,20 @@
+"""
+Shared connection helper. All loader scripts import get_connection() from here
+instead of hardcoding credentials. Set these via environment variables, or
+just edit the defaults below for local hackathon use.
+
+Requires: pip install mysql-connector-python
+"""
+import os
+import mysql.connector
+
+DB_CONFIG = {
+    "host": os.environ.get("MYSQL_HOST", "localhost"),
+    "user": os.environ.get("MYSQL_USER", "root"),
+    "password": os.environ.get("MYSQL_PASSWORD", ""),
+    "database": os.environ.get("MYSQL_DATABASE", "pa_system"),
+}
+
+
+def get_connection():
+    return mysql.connector.connect(**DB_CONFIG)

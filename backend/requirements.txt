@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn==0.32.0
+pymysql==1.1.1
+pyjwt==2.9.0
+bcrypt==4.2.0
+python-dotenv==1.0.1
+pydantic==2.9.2
+openai==1.54.0
+google-genai==0.3.0
+groq==0.11.0
+chromadb==0.5.20
+pymupdf>=1.24.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+python-multipart>=0.0.9
+
+

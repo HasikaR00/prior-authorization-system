@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root, [data-theme="light"], [data-theme="dark"], .dark {
+  /* 5-STEP BLUE RAMP BRAND PALETTE */
+  --color-blue-1: #A4C8E1;            /* Lightest */
+  --color-blue-2: #6FA3D8;            /* Lighter */
+  --color-blue-3: #3B7A99;            /* Secondary / Active Nav */
+  --color-blue-4: #1F4E79;            /* Links */
+  --color-blue-5: #0D3B66;            /* Darkest / Primary Text & Headers */
+
+  /* CORE PALETTE ASSIGNMENTS */
+  --color-bg: #EAF2F8;                /* Lightened tint canvas derived from #A4C8E1 */
+  --color-surface: #FFFFFF;           /* Card & Container surface bg */
+  --color-border: #CBD2D9;            /* Border & Dividers */
+  --color-text-primary: #0D3B66;      /* Primary Text (Darkest Blue) */
+  --color-text-secondary: #3B7A99;    /* Muted & Sub-text */
+  --color-input-bg: #FFFFFF;         /* Form input bg */
+  --color-input-text: #0D3B66;       /* Form input text */
+  --color-input-border: #CBD2D9;     /* Form input border */
+  --color-input-placeholder: #6FA3D8;/* Form placeholder */
+  
+  --color-brand-accent: #0D3B66;      /* Primary buttons */
+  --color-brand-accent-hover: #1F4E79;
+  --color-brand-text: #FFFFFF;        /* Primary button text */
+  --color-link: #1F4E79;              /* Hyperlinks */
+  --color-row-hover: rgba(164, 200, 225, 0.15); /* Table row hover (~15% #A4C8E1) */
+
+  /* STATUS COLORS (KEEP DISTINCT FOR CLINICAL SAFETY) */
+  --color-status-approved: #2E7D5B;
+  --color-status-pending: #C08A1E;
+  --color-status-info-requested: #B96A3D;
+  --color-status-denied: #C1443C;
+
+  /* Typography Tokens */
+  --font-size-body: 15px;
+  --font-size-label: 13px;
+  --font-size-h3: 18px;
+  --font-size-h2: 22px;
+  --font-size-h1: 28px;
+  --line-height-body: 1.6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Inter', 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
+
+/* Constrain free-text/prose blocks to max-width: 65ch for high readability */
+.prose-constrained, .prose-block {
+  max-width: 65ch;
+}

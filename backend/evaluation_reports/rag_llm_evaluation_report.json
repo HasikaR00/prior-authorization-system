@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "timestamp": "2026-08-18 09:12:28",
+    "eval_queries_count": 15,
+    "excluded_queries_count": 14,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "chroma_collection": "pa_policy_kb",
+    "llm_model": "openai/gpt-oss-120b",
+    "evaluation_label": "Policy/article-level retrieval evaluation",
+    "workflow_isolation_note": "This evaluation is offline and does not participate in the live PA decision workflow. The deterministic PA engine remains authoritative."
+  },
+  "mode_A_unrestricted_metrics": {
+    "recall": {
+      "1": 0.0,
+      "3": 0.0,
+      "5": 0.0,
+      "10": 0.0
+    },
+    "precision": {
+      "1": 0.0,
+      "3": 0.0,
+      "5": 0.0,
+      "10": 0.0
+    },
+    "mrr": 0.0,
+    "ndcg": {
+      "1": 0.0,
+      "3": 0.0,
+      "5": 0.0,
+      "10": 0.0
+    },
+    "latency_ms_avg": 43.35
+  },
+  "mode_B_production_filtered_metrics": {
+    "recall": {
+      "1": 100.0,
+      "3": 100.0,
+      "5": 100.0,
+      "10": 100.0
+    },
+    "precision": {
+      "1": 100.0,
+      "3": 82.22222222222221,
+      "5": 65.33333333333333,
+      "10": 38.0
+    },
+    "mrr": 1.0,
+    "ndcg": {
+      "1": 1.0,
+      "3": 1.0,
+      "5": 1.0,
+      "10": 1.0
+    },
+    "latency_ms": {
+      "mysql_stage1_avg": 20.37,
+      "mysql_stage1_median": 16.77,
+      "mysql_stage1_p95": 33.09,
+      "chroma_stage2_avg": 2.98,
+      "chroma_stage2_median": 0.0,
+      "chroma_stage2_p95": 16.78
+    }
+  },
+  "llm_metrics": {
+    "json_validity_rate": 100.0,
+    "required_field_completion": 100.0,
+    "schema_compliance": 100.0,
+    "evidence_groundedness": 95.28,
+    "answer_relevance": 100.0,
+    "policy_evidence_alignment": 100.0,
+    "unsupported_claim_rate": 0.0,
+    "contradiction_rate": 0.0,
+    "assessment_method": "Automated heuristic evaluation",
+    "latency_ms": {
+      "avg": 9937.75,
+      "median": 3952.79,
+      "p95": 19771.38
+    }
+  },
+  "per_query_results": [
+    {
+      "case_id": 1,
+      "hcpcs": "29877",
+      "icd10": "M17.0",
+      "expected_article": "52369",
+      "resolved_article": "52369",
+      "mysql_latency_ms": 16.601085662841797,
+      "unrestricted_latency_ms": 115.99302291870117,
+      "policy_filtered_latency_ms": 10.161161422729492,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 2
+    },
+    {
+      "case_id": 2,
+      "hcpcs": "67028",
+      "icd10": "C17.0",
+      "expected_article": "52370",
+      "resolved_article": "52370",
+      "mysql_latency_ms": 23.163557052612305,
+      "unrestricted_latency_ms": 33.56003761291504,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 3
+    },
+    {
+      "case_id": 3,
+      "hcpcs": "87641",
+      "icd10": "XX000",
+      "expected_article": "52379",
+      "resolved_article": "52379",
+      "mysql_latency_ms": 32.329559326171875,
+      "unrestricted_latency_ms": 34.23738479614258,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 2
+    },
+    {
+      "case_id": 4,
+      "hcpcs": "J0897",
+      "icd10": "C33",
+      "expected_article": "52399",
+      "resolved_article": "52399",
+      "mysql_latency_ms": 16.765117645263672,
+      "unrestricted_latency_ms": 49.85165596008301,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 4
+    },
+    {
+      "case_id": 5,
+      "hcpcs": "20610",
+      "icd10": "M17.0",
+      "expected_article": "52420",
+      "resolved_article": "52420",
+      "mysql_latency_ms": 17.409324645996094,
+      "unrestricted_latency_ms": 32.649993896484375,
+      "policy_filtered_latency_ms": 16.635656356811523,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 2
+    },
+    {
+      "case_id": 6,
+      "hcpcs": "J1740",
+      "icd10": "C79.51",
+      "expected_article": "52421",
+      "resolved_article": "52421",
+      "mysql_latency_ms": 16.57891273498535,
+      "unrestricted_latency_ms": 33.51640701293945,
+      "policy_filtered_latency_ms": 17.11273193359375,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 5
+    },
+    {
+      "case_id": 7,
+      "hcpcs": "J1745",
+      "icd10": "K50.00",
+      "expected_article": "52423",
+      "resolved_article": "52423",
+      "mysql_latency_ms": 16.05081558227539,
+      "unrestricted_latency_ms": 33.63966941833496,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 6
+    },
+    {
+      "case_id": 8,
+      "hcpcs": "66183",
+      "icd10": "H40.10X1",
+      "expected_article": "52432",
+      "resolved_article": "52432",
+      "mysql_latency_ms": 33.02907943725586,
+      "unrestricted_latency_ms": 33.637285232543945,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 2
+    },
+    {
+      "case_id": 9,
+      "hcpcs": "98925",
+      "icd10": "M99.00",
+      "expected_article": "52435",
+      "resolved_article": "52435",
+      "mysql_latency_ms": 16.33930206298828,
+      "unrestricted_latency_ms": 50.25625228881836,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 2
+    },
+    {
+      "case_id": 10,
+      "hcpcs": "90702",
+      "icd10": "S00.01XA",
+      "expected_article": "52438",
+      "resolved_article": "52438",
+      "mysql_latency_ms": 16.399145126342773,
+      "unrestricted_latency_ms": 33.71405601501465,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 2
+    },
+    {
+      "case_id": 11,
+      "hcpcs": "J2357",
+      "icd10": "J33.0",
+      "expected_article": "52448",
+      "resolved_article": "52448",
+      "mysql_latency_ms": 17.25459098815918,
+      "unrestricted_latency_ms": 33.49423408508301,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 1
+    },
+    {
+      "case_id": 12,
+      "hcpcs": "J9264",
+      "icd10": "C16.0",
+      "expected_article": "52450",
+      "resolved_article": "52450",
+      "mysql_latency_ms": 33.22315216064453,
+      "unrestricted_latency_ms": 33.69855880737305,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 4
+    },
+    {
+      "case_id": 13,
+      "hcpcs": "67027",
+      "icd10": "E08.311",
+      "expected_article": "52451",
+      "resolved_article": "52451",
+      "mysql_latency_ms": 17.13418960571289,
+      "unrestricted_latency_ms": 48.553466796875,
+      "policy_filtered_latency_ms": 0.8029937744140625,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 7
+    },
+    {
+      "case_id": 14,
+      "hcpcs": "11981",
+      "icd10": "C48.1",
+      "expected_article": "52453",
+      "resolved_article": "52453",
+      "mysql_latency_ms": 16.678333282470703,
+      "unrestricted_latency_ms": 33.35833549499512,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 10
+    },
+    {
+      "case_id": 15,
+      "hcpcs": "19030",
+      "icd10": "C50.011",
+      "expected_article": "52849",
+      "resolved_article": "52849",
+      "mysql_latency_ms": 16.651153564453125,
+      "unrestricted_latency_ms": 50.15134811401367,
+      "policy_filtered_latency_ms": 0.0,
+      "unrestricted_first_rank": null,
+      "policy_filtered_first_rank": 1,
+      "chunks_retrieved_policy_filtered": 5
+    }
+  ]
+}

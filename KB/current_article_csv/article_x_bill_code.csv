@@ -1,0 +1,1230 @@
+article_id,article_version,bill_code_id,bill_code_version,last_updated,description
+52369,17,011,7,2026-07-14 22:42:58.407000,Hospital Inpatient (Including Medicare Part A)
+52369,17,012,7,2026-07-14 22:42:58.407000,Hospital Inpatient (Medicare Part B only)
+52369,17,013,7,2026-07-14 22:42:58.407000,Hospital Outpatient
+52369,17,085,7,2026-07-14 22:42:58.407000,Critical Access Hospital
+52430,12,085,7,2025-11-26 22:23:51.140000,Critical Access Hospital
+52430,12,073,7,2025-11-26 22:23:51.133000,Clinic - Freestanding
+52430,12,077,7,2025-11-26 22:23:51.137000,Clinic - Federally Qualified Health Center (FQHC)
+52430,12,013,7,2025-11-26 22:23:51.127000,Hospital Outpatient
+52430,12,012,7,2025-11-26 22:23:51.123000,Hospital Inpatient (Medicare Part B only)
+52430,12,011,7,2025-11-26 22:23:51.120000,Hospital Inpatient (Including Medicare Part A)
+52430,12,021,7,2025-11-26 22:23:51.127000,Skilled Nursing - Inpatient (Including Medicare Part A)
+52430,12,022,7,2025-11-26 22:23:51.130000,Skilled Nursing - Inpatient (Medicare Part B only)
+52430,12,071,7,2025-11-26 22:23:51.133000,Clinic - Rural Health
+52432,14,071,7,2023-11-07 17:38:39.770000,Clinic - Rural Health
+52432,14,011,7,2023-11-07 17:38:39.767000,Hospital Inpatient (Including Medicare Part A)
+52432,14,013,7,2023-11-07 17:38:39.767000,Hospital Outpatient
+52432,14,085,7,2023-11-07 17:38:39.770000,Critical Access Hospital
+52435,14,085,7,2025-11-26 22:25:16.780000,Critical Access Hospital
+52435,14,077,7,2025-11-26 22:25:16.777000,Clinic - Federally Qualified Health Center (FQHC)
+52435,14,073,7,2025-11-26 22:25:16.773000,Clinic - Freestanding
+52435,14,013,7,2025-11-26 22:25:16.763000,Hospital Outpatient
+52435,14,011,7,2025-11-26 22:25:16.757000,Hospital Inpatient (Including Medicare Part A)
+52435,14,012,7,2025-11-26 22:25:16.760000,Hospital Inpatient (Medicare Part B only)
+52435,14,071,7,2025-11-26 22:25:16.773000,Clinic - Rural Health
+52435,14,023,7,2025-11-26 22:25:16.770000,Skilled Nursing - Outpatient
+52435,14,022,7,2025-11-26 22:25:16.767000,Skilled Nursing - Inpatient (Medicare Part B only)
+52435,14,021,7,2025-11-26 22:25:16.763000,Skilled Nursing - Inpatient (Including Medicare Part A)
+52437,17,012,7,2025-11-26 22:26:51.967000,Hospital Inpatient (Medicare Part B only)
+52437,17,011,7,2025-11-26 22:26:51.963000,Hospital Inpatient (Including Medicare Part A)
+52437,17,013,7,2025-11-26 22:26:51.970000,Hospital Outpatient
+52437,17,085,7,2025-11-26 22:26:51.970000,Critical Access Hospital
+52438,22,085,7,2025-09-18 20:45:40.890000,Critical Access Hospital
+52438,22,013,7,2025-09-18 20:45:40.883000,Hospital Outpatient
+52438,22,011,7,2025-09-18 20:45:40.880000,Hospital Inpatient (Including Medicare Part A)
+52438,22,012,7,2025-09-18 20:45:40.880000,Hospital Inpatient (Medicare Part B only)
+52438,22,022,7,2025-09-18 20:45:40.887000,Skilled Nursing - Inpatient (Medicare Part B only)
+52438,22,023,7,2025-09-18 20:45:40.887000,Skilled Nursing - Outpatient
+52470,19,012,7,2026-07-27 18:03:29.177000,Hospital Inpatient (Medicare Part B only)
+52470,19,011,7,2026-07-27 18:03:29.177000,Hospital Inpatient (Including Medicare Part A)
+52470,19,013,7,2026-07-27 18:03:29.180000,Hospital Outpatient
+52470,19,085,7,2026-07-27 18:03:29.183000,Critical Access Hospital
+52470,19,079,7,2026-07-27 18:03:29.183000,Clinic - Other
+52825,12,085,7,2026-07-14 22:43:05.237000,Critical Access Hospital
+52825,12,013,7,2026-07-14 22:43:05.237000,Hospital Outpatient
+52825,12,012,7,2026-07-14 22:43:05.237000,Hospital Inpatient (Medicare Part B only)
+52830,9,081,6,2026-07-28 17:58:37.117000,Hospice (non-Hospital based)
+52830,9,082,6,2026-07-28 17:58:37.117000,Hospice (hospital based)
+52837,21,085,7,2026-07-14 22:43:04.647000,Critical Access Hospital
+52837,21,013,7,2026-07-14 22:43:04.647000,Hospital Outpatient
+52840,3,013,5,2026-07-14 22:43:04.727000,Hospital Outpatient
+52840,3,011,5,2026-07-14 22:43:04.727000,Hospital Inpatient (Including Medicare Part A)
+52840,3,012,5,2026-07-14 22:43:04.727000,Hospital Inpatient (Medicare Part B only)
+52840,3,071,5,2026-07-14 22:43:04.727000,Clinic - Rural Health
+52840,3,021,5,2026-07-14 22:43:04.727000,Skilled Nursing - Inpatient (Including Medicare Part A)
+52840,3,022,5,2026-07-14 22:43:04.727000,Skilled Nursing - Inpatient (Medicare Part B only)
+52840,3,085,5,2026-07-14 22:43:04.727000,Critical Access Hospital
+52840,3,077,5,2026-07-14 22:43:04.727000,Clinic - Federally Qualified Health Center (FQHC)
+52840,3,073,5,2026-07-14 22:43:04.727000,Clinic - Freestanding
+52845,8,032,7,2026-07-14 21:41:56.480000,Home Health Services under a plan of treatment
+52986,242,999,7,2025-04-25 17:28:16.783000,Not Applicable
+52992,30,085,7,2025-04-11 13:01:08.813000,Critical Access Hospital
+52992,30,083,7,2025-04-11 13:01:08.810000,Ambulatory Surgery Center
+52992,30,011,7,2025-04-11 13:01:08.803000,Hospital Inpatient (Including Medicare Part A)
+52992,30,012,7,2025-04-11 13:01:08.807000,Hospital Inpatient (Medicare Part B only)
+52992,30,013,7,2025-04-11 13:01:08.810000,Hospital Outpatient
+52993,54,999,7,2024-10-18 13:42:54.573000,Not Applicable
+52996,31,085,7,2025-09-26 13:52:26.700000,Critical Access Hospital
+52996,31,083,7,2025-09-26 13:52:26.700000,Ambulatory Surgery Center
+52996,31,077,7,2025-09-26 13:52:26.697000,Clinic - Federally Qualified Health Center (FQHC)
+52996,31,075,7,2025-09-26 13:52:26.693000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+52996,31,073,7,2025-09-26 13:52:26.693000,Clinic - Freestanding
+52996,31,013,7,2025-09-26 13:52:26.677000,Hospital Outpatient
+52996,31,012,7,2025-09-26 13:52:26.673000,Hospital Inpatient (Medicare Part B only)
+52996,31,011,7,2025-09-26 13:52:26.670000,Hospital Inpatient (Including Medicare Part A)
+52996,31,071,7,2025-09-26 13:52:26.690000,Clinic - Rural Health
+52996,31,028,7,2025-09-26 13:52:26.690000,Skilled Nursing - Swing Beds
+52996,31,023,7,2025-09-26 13:52:26.687000,Skilled Nursing - Outpatient
+52996,31,022,7,2025-09-26 13:52:26.683000,Skilled Nursing - Inpatient (Medicare Part B only)
+52996,31,018,7,2025-09-26 13:52:26.680000,Hospital - Swing Beds
+52996,31,021,7,2025-09-26 13:52:26.680000,Skilled Nursing - Inpatient (Including Medicare Part A)
+52996,31,014,7,2025-09-26 13:52:26.677000,Hospital - Laboratory Services Provided to Non-patients
+52998,50,999,7,2026-01-23 14:04:06.270000,Not Applicable
+53001,45,018,7,2026-01-23 14:04:57.117000,Hospital - Swing Beds
+53001,45,022,7,2026-01-23 14:04:57.120000,Skilled Nursing - Inpatient (Medicare Part B only)
+53001,45,023,7,2026-01-23 14:04:57.120000,Skilled Nursing - Outpatient
+53001,45,071,7,2026-01-23 14:04:57.123000,Clinic - Rural Health
+53001,45,012,7,2026-01-23 14:04:57.110000,Hospital Inpatient (Medicare Part B only)
+53001,45,013,7,2026-01-23 14:04:57.113000,Hospital Outpatient
+53001,45,073,7,2026-01-23 14:04:57.123000,Clinic - Freestanding
+53001,45,074,7,2026-01-23 14:04:57.127000,Clinic - Outpatient Rehabilitation Facility (ORF)
+53001,45,075,7,2026-01-23 14:04:57.130000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+53001,45,077,7,2026-01-23 14:04:57.130000,Clinic - Federally Qualified Health Center (FQHC)
+53001,45,083,7,2026-01-23 14:04:57.133000,Ambulatory Surgery Center
+53001,45,085,7,2026-01-23 14:04:57.133000,Critical Access Hospital
+53019,15,085,7,2026-07-14 22:43:05.163000,Critical Access Hospital
+53019,15,013,7,2026-07-14 22:43:05.163000,Hospital Outpatient
+53019,15,012,7,2026-07-14 22:43:05.163000,Hospital Inpatient (Medicare Part B only)
+53019,15,021,7,2026-07-14 22:43:05.163000,Skilled Nursing - Inpatient (Including Medicare Part A)
+53026,65,011,7,2025-12-22 16:12:02.157000,Hospital Inpatient (Including Medicare Part A)
+53052,48,032,7,2025-08-19 18:16:46.133000,Home Health Services under a plan of treatment
+53056,15,082,7,2024-11-27 17:20:58.887000,Hospice (hospital based)
+53056,15,081,7,2024-11-27 17:20:58.883000,Hospice (non-Hospital based)
+53057,67,032,7,2026-02-04 14:14:58.860000,Home Health Services under a plan of treatment
+53060,48,0,7,2025-08-14 12:47:17.160000,TBD
+53064,87,012,7,2026-02-04 14:07:04.750000,Hospital Inpatient (Medicare Part B only)
+53064,87,013,7,2026-02-04 14:07:04.750000,Hospital Outpatient
+53064,87,034,7,2026-02-04 14:07:04.760000,Home Health Services not under a plan of treatment
+53064,87,071,7,2026-02-04 14:07:04.763000,Clinic - Rural Health
+53064,87,023,7,2026-02-04 14:07:04.760000,Skilled Nursing - Outpatient
+53064,87,022,7,2026-02-04 14:07:04.757000,Skilled Nursing - Inpatient (Medicare Part B only)
+53064,87,018,7,2026-02-04 14:07:04.753000,Hospital - Swing Beds
+53064,87,021,7,2026-02-04 14:07:04.753000,Skilled Nursing - Inpatient (Including Medicare Part A)
+53064,87,077,7,2026-02-04 14:07:04.770000,Clinic - Federally Qualified Health Center (FQHC)
+53064,87,074,7,2026-02-04 14:07:04.767000,Clinic - Outpatient Rehabilitation Facility (ORF)
+53064,87,075,7,2026-02-04 14:07:04.767000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+53064,87,085,7,2026-02-04 14:07:04.770000,Critical Access Hospital
+53065,76,085,7,2026-02-04 14:09:20.793000,Critical Access Hospital
+53065,76,074,7,2026-02-04 14:09:20.787000,Clinic - Outpatient Rehabilitation Facility (ORF)
+53065,76,077,7,2026-02-04 14:09:20.790000,Clinic - Federally Qualified Health Center (FQHC)
+53065,76,075,7,2026-02-04 14:09:20.790000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+53065,76,018,7,2026-02-04 14:09:20.773000,Hospital - Swing Beds
+53065,76,021,7,2026-02-04 14:09:20.777000,Skilled Nursing - Inpatient (Including Medicare Part A)
+53065,76,022,7,2026-02-04 14:09:20.780000,Skilled Nursing - Inpatient (Medicare Part B only)
+53065,76,023,7,2026-02-04 14:09:20.780000,Skilled Nursing - Outpatient
+53065,76,071,7,2026-02-04 14:09:20.783000,Clinic - Rural Health
+53065,76,034,7,2026-02-04 14:09:20.783000,Home Health Services not under a plan of treatment
+53065,76,013,7,2026-02-04 14:09:20.770000,Hospital Outpatient
+53065,76,012,7,2026-02-04 14:09:20.770000,Hospital Inpatient (Medicare Part B only)
+53106,16,013,6,2017-12-14 21:28:42.490000,Hospital Outpatient
+53127,193,999,7,2026-07-10 13:46:04.827000,Not Applicable
+53134,84,085,7,2023-11-22 12:43:03.520000,Critical Access Hospital
+53134,84,083,7,2023-11-22 12:43:03.520000,Ambulatory Surgery Center
+53134,84,013,7,2023-11-22 12:43:03.513000,Hospital Outpatient
+53134,84,012,7,2023-11-22 12:43:03.513000,Hospital Inpatient (Medicare Part B only)
+53134,84,018,7,2023-11-22 12:43:03.517000,Hospital - Swing Beds
+53359,40,071,7,2026-06-17 15:00:08.670000,Clinic - Rural Health
+53359,40,011,7,2026-06-17 15:00:08.667000,Hospital Inpatient (Including Medicare Part A)
+53359,40,013,7,2026-06-17 15:00:08.667000,Hospital Outpatient
+53359,40,073,7,2026-06-17 15:00:08.670000,Clinic - Freestanding
+53359,40,085,7,2026-06-17 15:00:08.673000,Critical Access Hospital
+53558,29,014,7,2022-01-18 12:58:03.883000,Hospital - Laboratory Services Provided to Non-patients
+53883,26,999,7,2024-03-01 14:33:37.020000,Not Applicable
+54061,23,999,7,2025-12-22 15:12:01.493000,Not Applicable
+54095,68,999,7,2025-09-26 17:04:49.407000,Not Applicable
+54111,50,085,7,2025-09-26 17:14:51.313000,Critical Access Hospital
+54111,50,083,7,2025-09-26 17:14:51.310000,Ambulatory Surgery Center
+54111,50,074,7,2025-09-26 17:14:51.307000,Clinic - Outpatient Rehabilitation Facility (ORF)
+54111,50,075,7,2025-09-26 17:14:51.310000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+54111,50,018,7,2025-09-26 17:14:51.297000,Hospital - Swing Beds
+54111,50,021,7,2025-09-26 17:14:51.300000,Skilled Nursing - Inpatient (Including Medicare Part A)
+54111,50,023,7,2025-09-26 17:14:51.303000,Skilled Nursing - Outpatient
+54111,50,022,7,2025-09-26 17:14:51.300000,Skilled Nursing - Inpatient (Medicare Part B only)
+54111,50,013,7,2025-09-26 17:14:51.297000,Hospital Outpatient
+54111,50,012,7,2025-09-26 17:14:51.293000,Hospital Inpatient (Medicare Part B only)
+54117,88,999,7,2026-01-23 13:39:50.897000,Not Applicable
+54196,20,013,7,2023-11-15 12:12:26.457000,Hospital Outpatient
+54295,27,014,7,2023-11-10 16:31:04.910000,Hospital - Laboratory Services Provided to Non-patients
+54484,13,013,7,2026-02-09 16:51:07.437000,Hospital Outpatient
+54602,25,013,7,2026-07-14 22:43:03.117000,Hospital Outpatient
+54602,25,012,7,2026-07-14 22:43:03.117000,Hospital Inpatient (Medicare Part B only)
+54602,25,011,7,2026-07-14 22:43:03.117000,Hospital Inpatient (Including Medicare Part A)
+54635,31,999,7,2025-09-16 14:35:04.697000,Not Applicable
+54682,34,0,7,2024-01-25 15:14:26.187000,TBD
+54830,9,023,7,2024-04-05 20:59:32.493000,Skilled Nursing - Outpatient
+54831,28,013,7,2023-08-24 15:36:23.490000,Hospital Outpatient
+54831,28,085,7,2023-08-24 15:36:23.493000,Critical Access Hospital
+54832,14,023,7,2024-03-28 13:08:54.840000,Skilled Nursing - Outpatient
+54909,25,013,7,2026-07-14 22:43:03.500000,Hospital Outpatient
+54909,25,085,7,2026-07-14 22:43:03.500000,Critical Access Hospital
+54926,25,085,7,2025-05-09 14:50:07.557000,Critical Access Hospital
+54926,25,013,7,2025-05-09 14:50:07.557000,Hospital Outpatient
+54929,40,013,7,2025-10-27 12:06:23.630000,Hospital Outpatient
+54929,40,085,7,2025-10-27 12:06:23.630000,Critical Access Hospital
+54954,28,999,7,2023-01-20 14:21:01.790000,Not Applicable
+54961,21,085,7,2026-04-02 15:20:28.387000,Critical Access Hospital
+54961,21,013,7,2026-04-02 15:20:28.373000,Hospital Outpatient
+54969,52,013,7,2025-10-14 13:00:49.647000,Hospital Outpatient
+54969,52,012,7,2025-10-14 13:00:49.647000,Hospital Inpatient (Medicare Part B only)
+54969,52,022,7,2025-10-14 13:00:49.647000,Skilled Nursing - Inpatient (Medicare Part B only)
+54969,52,023,7,2025-10-14 13:00:49.647000,Skilled Nursing - Outpatient
+54969,52,071,7,2025-10-14 13:00:49.647000,Clinic - Rural Health
+54969,52,021,7,2025-10-14 13:00:49.647000,Skilled Nursing - Inpatient (Including Medicare Part A)
+54969,52,085,7,2025-10-14 13:00:49.647000,Critical Access Hospital
+54982,28,085,7,2025-05-09 14:48:53.117000,Critical Access Hospital
+54982,28,013,7,2025-05-09 14:48:53.113000,Hospital Outpatient
+55028,45,999,7,2025-10-27 12:06:22.180000,Not Applicable
+55056,14,999,7,2025-10-27 12:06:23.683000,Not Applicable
+55058,7,0,7,2025-09-23 11:39:34.220000,TBD
+55200,37,014,7,2025-12-23 17:38:53.573000,Hospital - Laboratory Services Provided to Non-patients
+55229,46,999,7,2026-01-23 14:05:43.793000,Not Applicable
+55231,17,013,7,2026-01-22 14:47:58.707000,Hospital Outpatient
+55326,40,999,7,2025-10-27 12:06:24.960000,Not Applicable
+55354,35,072,7,2023-06-05 13:31:53.090000,Clinic - Hospital Based or Independent Renal Dialysis Center
+55530,35,999,7,2025-10-14 13:00:49.827000,Not Applicable
+55584,19,999,7,2025-09-16 14:35:04.433000,Not Applicable
+55597,24,014,7,2026-02-09 16:51:07.510000,Hospital - Laboratory Services Provided to Non-patients
+55672,26,072,7,2026-07-14 22:42:59.747000,Clinic - Hospital Based or Independent Renal Dialysis Center
+55675,25,072,7,2025-10-06 18:48:48.633000,Clinic - Hospital Based or Independent Renal Dialysis Center
+55703,27,072,7,2026-06-18 15:02:38.020000,Clinic - Hospital Based or Independent Renal Dialysis Center
+55723,44,072,7,2023-01-20 12:02:27.707000,Clinic - Hospital Based or Independent Renal Dialysis Center
+55818,26,073,7,2026-01-23 14:13:18.637000,Clinic - Freestanding
+55818,26,074,7,2026-01-23 14:13:18.643000,Clinic - Outpatient Rehabilitation Facility (ORF)
+55818,26,075,7,2026-01-23 14:13:18.653000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+55818,26,077,7,2026-01-23 14:13:18.660000,Clinic - Federally Qualified Health Center (FQHC)
+55818,26,085,7,2026-01-23 14:13:18.677000,Critical Access Hospital
+55818,26,083,7,2026-01-23 14:13:18.670000,Ambulatory Surgery Center
+55818,26,018,7,2026-01-23 14:13:18.603000,Hospital - Swing Beds
+55818,26,071,7,2026-01-23 14:13:18.627000,Clinic - Rural Health
+55818,26,023,7,2026-01-23 14:13:18.620000,Skilled Nursing - Outpatient
+55818,26,022,7,2026-01-23 14:13:18.610000,Skilled Nursing - Inpatient (Medicare Part B only)
+55818,26,013,7,2026-01-23 14:13:18.593000,Hospital Outpatient
+55818,26,012,7,2026-01-23 14:13:18.587000,Hospital Inpatient (Medicare Part B only)
+55913,9,012,7,2024-12-17 15:26:40.610000,Hospital Inpatient (Medicare Part B only)
+55913,9,013,7,2024-12-17 15:26:40.613000,Hospital Outpatient
+55937,46,999,7,2026-04-02 15:10:22.690000,Not Applicable
+56034,42,999,7,2026-03-04 15:55:05.220000,Not Applicable
+56159,23,072,7,2026-02-27 19:04:09.913000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56287,18,999,7,2024-05-31 13:37:46.903000,Not Applicable
+56384,7,085,6,2019-10-08 18:32:34.923000,Critical Access Hospital
+56384,7,013,6,2019-10-08 18:32:34.913000,Hospital Outpatient
+56394,32,013,7,2026-07-16 17:21:38.213000,Hospital Outpatient
+56394,32,071,7,2026-07-16 17:21:38.217000,Clinic - Rural Health
+56394,32,014,7,2026-07-16 17:21:38.213000,Hospital - Laboratory Services Provided to Non-patients
+56394,32,085,7,2026-07-16 17:21:38.217000,Critical Access Hospital
+56414,41,999,7,2025-09-26 13:53:43.243000,Not Applicable
+56416,42,085,7,2025-09-26 13:54:31.340000,Critical Access Hospital
+56416,42,083,7,2025-09-26 13:54:31.337000,Ambulatory Surgery Center
+56416,42,072,7,2025-09-26 13:54:31.330000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56416,42,077,7,2025-09-26 13:54:31.333000,Clinic - Federally Qualified Health Center (FQHC)
+56416,42,075,7,2025-09-26 13:54:31.333000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56416,42,014,7,2025-09-26 13:54:31.320000,Hospital - Laboratory Services Provided to Non-patients
+56416,42,018,7,2025-09-26 13:54:31.320000,Hospital - Swing Beds
+56416,42,021,7,2025-09-26 13:54:31.323000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56416,42,023,7,2025-09-26 13:54:31.330000,Skilled Nursing - Outpatient
+56416,42,022,7,2025-09-26 13:54:31.327000,Skilled Nursing - Inpatient (Medicare Part B only)
+56416,42,013,7,2025-09-26 13:54:31.317000,Hospital Outpatient
+56416,42,012,7,2025-09-26 13:54:31.313000,Hospital Inpatient (Medicare Part B only)
+56420,16,012,7,2023-01-20 12:04:01.570000,Hospital Inpatient (Medicare Part B only)
+56420,16,013,7,2023-01-20 12:04:01.570000,Hospital Outpatient
+56420,16,022,7,2023-01-20 12:04:01.577000,Skilled Nursing - Inpatient (Medicare Part B only)
+56420,16,023,7,2023-01-20 12:04:01.577000,Skilled Nursing - Outpatient
+56420,16,071,7,2023-01-20 12:04:01.580000,Clinic - Rural Health
+56420,16,021,7,2023-01-20 12:04:01.573000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56420,16,018,7,2023-01-20 12:04:01.573000,Hospital - Swing Beds
+56420,16,014,7,2023-01-20 12:04:01.570000,Hospital - Laboratory Services Provided to Non-patients
+56420,16,072,7,2023-01-20 12:04:01.580000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56420,16,085,7,2023-01-20 12:04:01.583000,Critical Access Hospital
+56422,50,011,7,2026-01-23 14:06:34.313000,Hospital Inpatient (Including Medicare Part A)
+56423,59,999,7,2026-01-23 14:07:21.167000,Not Applicable
+56425,16,012,7,2025-11-26 22:39:00.543000,Hospital Inpatient (Medicare Part B only)
+56425,16,013,7,2025-11-26 22:39:00.547000,Hospital Outpatient
+56425,16,014,7,2025-11-26 22:39:00.547000,Hospital - Laboratory Services Provided to Non-patients
+56425,16,021,7,2025-11-26 22:39:00.550000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56425,16,071,7,2025-11-26 22:39:00.557000,Clinic - Rural Health
+56425,16,023,7,2025-11-26 22:39:00.553000,Skilled Nursing - Outpatient
+56425,16,022,7,2025-11-26 22:39:00.550000,Skilled Nursing - Inpatient (Medicare Part B only)
+56425,16,085,7,2025-11-26 22:39:00.567000,Critical Access Hospital
+56425,16,072,7,2025-11-26 22:39:00.560000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56425,16,073,7,2025-11-26 22:39:00.560000,Clinic - Freestanding
+56425,16,077,7,2025-11-26 22:39:00.563000,Clinic - Federally Qualified Health Center (FQHC)
+56439,18,085,7,2025-10-31 20:58:08.480000,Critical Access Hospital
+56439,18,013,7,2025-10-31 20:58:08.480000,Hospital Outpatient
+56448,22,013,7,2025-11-26 22:37:20.203000,Hospital Outpatient
+56448,22,012,7,2025-11-26 22:37:20.200000,Hospital Inpatient (Medicare Part B only)
+56448,22,022,7,2025-11-26 22:37:20.207000,Skilled Nursing - Inpatient (Medicare Part B only)
+56448,22,023,7,2025-11-26 22:37:20.210000,Skilled Nursing - Outpatient
+56448,22,071,7,2025-11-26 22:37:20.210000,Clinic - Rural Health
+56448,22,085,7,2025-11-26 22:37:20.217000,Critical Access Hospital
+56448,22,077,7,2025-11-26 22:37:20.213000,Clinic - Federally Qualified Health Center (FQHC)
+56448,22,073,7,2025-11-26 22:37:20.213000,Clinic - Freestanding
+56451,26,0,7,2025-09-30 23:46:16.860000,TBD
+56453,12,011,7,2025-09-18 20:06:22.953000,Hospital Inpatient (Including Medicare Part A)
+56453,12,012,7,2025-09-18 20:06:22.953000,Hospital Inpatient (Medicare Part B only)
+56453,12,013,7,2025-09-18 20:06:22.957000,Hospital Outpatient
+56453,12,083,7,2025-09-18 20:06:22.960000,Ambulatory Surgery Center
+56453,12,085,7,2025-09-18 20:06:22.967000,Critical Access Hospital
+56454,12,085,7,2026-02-23 17:34:52.690000,Critical Access Hospital
+56454,12,077,7,2026-02-23 17:34:52.687000,Clinic - Federally Qualified Health Center (FQHC)
+56454,12,073,7,2026-02-23 17:34:52.683000,Clinic - Freestanding
+56454,12,071,7,2026-02-23 17:34:52.683000,Clinic - Rural Health
+56454,12,013,7,2026-02-23 17:34:52.680000,Hospital Outpatient
+56455,12,013,7,2026-02-20 22:00:55.053000,Hospital Outpatient
+56455,12,012,7,2026-02-20 22:00:55.043000,Hospital Inpatient (Medicare Part B only)
+56455,12,011,7,2026-02-20 22:00:55.037000,Hospital Inpatient (Including Medicare Part A)
+56455,12,071,7,2026-02-20 22:00:55.087000,Clinic - Rural Health
+56455,12,023,7,2026-02-20 22:00:55.077000,Skilled Nursing - Outpatient
+56455,12,022,7,2026-02-20 22:00:55.070000,Skilled Nursing - Inpatient (Medicare Part B only)
+56455,12,021,7,2026-02-20 22:00:55.060000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56455,12,073,7,2026-02-20 22:00:55.093000,Clinic - Freestanding
+56455,12,077,7,2026-02-20 22:00:55.103000,Clinic - Federally Qualified Health Center (FQHC)
+56455,12,085,7,2026-02-20 22:00:55.110000,Critical Access Hospital
+56456,32,085,7,2026-02-20 19:56:10.510000,Critical Access Hospital
+56456,32,012,7,2026-02-20 19:56:10.503000,Hospital Inpatient (Medicare Part B only)
+56456,32,013,7,2026-02-20 19:56:10.507000,Hospital Outpatient
+56457,15,013,7,2026-02-20 19:22:54.400000,Hospital Outpatient
+56457,15,012,7,2026-02-20 19:22:54.397000,Hospital Inpatient (Medicare Part B only)
+56457,15,021,7,2026-02-20 19:22:54.403000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56457,15,018,7,2026-02-20 19:22:54.403000,Hospital - Swing Beds
+56457,15,022,7,2026-02-20 19:22:54.407000,Skilled Nursing - Inpatient (Medicare Part B only)
+56457,15,023,7,2026-02-20 19:22:54.410000,Skilled Nursing - Outpatient
+56457,15,071,7,2026-02-20 19:22:54.410000,Clinic - Rural Health
+56457,15,085,7,2026-02-20 19:22:54.417000,Critical Access Hospital
+56457,15,077,7,2026-02-20 19:22:54.413000,Clinic - Federally Qualified Health Center (FQHC)
+56457,15,073,7,2026-02-20 19:22:54.413000,Clinic - Freestanding
+56459,30,073,7,2026-04-10 11:43:25.677000,Clinic - Freestanding
+56459,30,077,7,2026-04-10 11:43:25.680000,Clinic - Federally Qualified Health Center (FQHC)
+56459,30,085,7,2026-04-10 11:43:25.680000,Critical Access Hospital
+56459,30,071,7,2026-04-10 11:43:25.673000,Clinic - Rural Health
+56459,30,023,7,2026-04-10 11:43:25.670000,Skilled Nursing - Outpatient
+56459,30,022,7,2026-04-10 11:43:25.670000,Skilled Nursing - Inpatient (Medicare Part B only)
+56459,30,021,7,2026-04-10 11:43:25.667000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56459,30,012,7,2026-04-10 11:43:25.663000,Hospital Inpatient (Medicare Part B only)
+56459,30,011,7,2026-04-10 11:43:25.660000,Hospital Inpatient (Including Medicare Part A)
+56459,30,013,7,2026-04-10 11:43:25.663000,Hospital Outpatient
+56460,14,013,7,2026-02-20 19:46:00.957000,Hospital Outpatient
+56460,14,011,7,2026-02-20 19:46:00.953000,Hospital Inpatient (Including Medicare Part A)
+56460,14,012,7,2026-02-20 19:46:00.953000,Hospital Inpatient (Medicare Part B only)
+56460,14,021,7,2026-02-20 19:46:00.960000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56460,14,018,7,2026-02-20 19:46:00.960000,Hospital - Swing Beds
+56460,14,022,7,2026-02-20 19:46:00.963000,Skilled Nursing - Inpatient (Medicare Part B only)
+56460,14,023,7,2026-02-20 19:46:00.967000,Skilled Nursing - Outpatient
+56460,14,028,7,2026-02-20 19:46:00.970000,Skilled Nursing - Swing Beds
+56460,14,085,7,2026-02-20 19:46:00.973000,Critical Access Hospital
+56460,14,072,7,2026-02-20 19:46:00.970000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56461,26,072,7,2026-02-27 14:26:45.517000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56461,26,073,7,2026-02-27 14:26:45.520000,Clinic - Freestanding
+56461,26,071,7,2026-02-27 14:26:45.517000,Clinic - Rural Health
+56461,26,077,7,2026-02-27 14:26:45.520000,Clinic - Federally Qualified Health Center (FQHC)
+56461,26,085,7,2026-02-27 14:26:45.523000,Critical Access Hospital
+56461,26,023,7,2026-02-27 14:26:45.513000,Skilled Nursing - Outpatient
+56461,26,022,7,2026-02-27 14:26:45.510000,Skilled Nursing - Inpatient (Medicare Part B only)
+56461,26,021,7,2026-02-27 14:26:45.510000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56461,26,012,7,2026-02-27 14:26:45.503000,Hospital Inpatient (Medicare Part B only)
+56461,26,011,7,2026-02-27 14:26:45.500000,Hospital Inpatient (Including Medicare Part A)
+56461,26,013,7,2026-02-27 14:26:45.507000,Hospital Outpatient
+56462,32,013,7,2026-02-27 16:11:05.380000,Hospital Outpatient
+56462,32,011,7,2026-02-27 16:11:05.377000,Hospital Inpatient (Including Medicare Part A)
+56462,32,012,7,2026-02-27 16:11:05.380000,Hospital Inpatient (Medicare Part B only)
+56462,32,022,7,2026-02-27 16:11:05.383000,Skilled Nursing - Inpatient (Medicare Part B only)
+56462,32,023,7,2026-02-27 16:11:05.387000,Skilled Nursing - Outpatient
+56462,32,085,7,2026-02-27 16:11:05.393000,Critical Access Hospital
+56462,32,077,7,2026-02-27 16:11:05.393000,Clinic - Federally Qualified Health Center (FQHC)
+56462,32,071,7,2026-02-27 16:11:05.387000,Clinic - Rural Health
+56462,32,073,7,2026-02-27 16:11:05.390000,Clinic - Freestanding
+56462,32,072,7,2026-02-27 16:11:05.390000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56464,35,073,7,2026-02-27 18:26:52.680000,Clinic - Freestanding
+56464,35,071,7,2026-02-27 18:26:52.680000,Clinic - Rural Health
+56464,35,077,7,2026-02-27 18:26:52.683000,Clinic - Federally Qualified Health Center (FQHC)
+56464,35,085,7,2026-02-27 18:26:52.683000,Critical Access Hospital
+56464,35,023,7,2026-02-27 18:26:52.677000,Skilled Nursing - Outpatient
+56464,35,022,7,2026-02-27 18:26:52.673000,Skilled Nursing - Inpatient (Medicare Part B only)
+56464,35,021,7,2026-02-27 18:26:52.673000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56464,35,018,7,2026-02-27 18:26:52.670000,Hospital - Swing Beds
+56464,35,014,7,2026-02-27 18:26:52.670000,Hospital - Laboratory Services Provided to Non-patients
+56464,35,012,7,2026-02-27 18:26:52.663000,Hospital Inpatient (Medicare Part B only)
+56464,35,013,7,2026-02-27 18:26:52.667000,Hospital Outpatient
+56467,14,013,7,2026-03-25 20:03:04.447000,Hospital Outpatient
+56467,14,012,7,2026-03-25 20:03:04.443000,Hospital Inpatient (Medicare Part B only)
+56467,14,011,7,2026-03-25 20:03:04.440000,Hospital Inpatient (Including Medicare Part A)
+56467,14,085,7,2026-03-25 20:03:04.453000,Critical Access Hospital
+56467,14,077,7,2026-03-25 20:03:04.450000,Clinic - Federally Qualified Health Center (FQHC)
+56467,14,071,7,2026-03-25 20:03:04.447000,Clinic - Rural Health
+56467,14,073,7,2026-03-25 20:03:04.450000,Clinic - Freestanding
+56491,25,083,7,2025-03-18 16:49:18.530000,Ambulatory Surgery Center
+56491,25,085,7,2025-03-18 16:49:18.533000,Critical Access Hospital
+56491,25,013,7,2025-03-18 16:49:18.530000,Hospital Outpatient
+56493,13,013,7,2025-10-31 20:50:57.570000,Hospital Outpatient
+56493,13,011,7,2025-10-31 20:50:57.563000,Hospital Inpatient (Including Medicare Part A)
+56493,13,012,7,2025-10-31 20:50:57.567000,Hospital Inpatient (Medicare Part B only)
+56493,13,018,7,2025-10-31 20:50:57.570000,Hospital - Swing Beds
+56493,13,085,7,2025-10-31 20:50:57.573000,Critical Access Hospital
+56494,17,085,7,2026-02-20 21:50:05.327000,Critical Access Hospital
+56494,17,021,7,2026-02-20 21:50:05.327000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56494,17,012,7,2026-02-20 21:50:05.320000,Hospital Inpatient (Medicare Part B only)
+56494,17,011,7,2026-02-20 21:50:05.320000,Hospital Inpatient (Including Medicare Part A)
+56494,17,013,7,2026-02-20 21:50:05.323000,Hospital Outpatient
+56505,41,013,7,2026-02-20 14:54:44.880000,Hospital Outpatient
+56505,41,012,7,2026-02-20 14:54:44.880000,Hospital Inpatient (Medicare Part B only)
+56505,41,021,7,2026-02-20 14:54:44.887000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56505,41,022,7,2026-02-20 14:54:44.890000,Skilled Nursing - Inpatient (Medicare Part B only)
+56505,41,018,7,2026-02-20 14:54:44.883000,Hospital - Swing Beds
+56505,41,023,7,2026-02-20 14:54:44.890000,Skilled Nursing - Outpatient
+56505,41,085,7,2026-02-20 14:54:44.900000,Critical Access Hospital
+56505,41,083,7,2026-02-20 14:54:44.900000,Ambulatory Surgery Center
+56505,41,077,7,2026-02-20 14:54:44.897000,Clinic - Federally Qualified Health Center (FQHC)
+56505,41,073,7,2026-02-20 14:54:44.893000,Clinic - Freestanding
+56505,41,071,7,2026-02-20 14:54:44.893000,Clinic - Rural Health
+56514,25,999,7,2025-10-14 13:00:42.563000,Not Applicable
+56538,27,999,7,2025-09-26 13:55:13.870000,Not Applicable
+56541,40,071,7,2024-01-19 13:04:00.863000,Clinic - Rural Health
+56541,40,072,7,2024-01-19 13:04:00.867000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56541,40,073,7,2024-01-19 13:04:00.867000,Clinic - Freestanding
+56541,40,077,7,2024-01-19 13:04:00.870000,Clinic - Federally Qualified Health Center (FQHC)
+56541,40,083,7,2024-01-19 13:04:00.873000,Ambulatory Surgery Center
+56541,40,075,7,2024-01-19 13:04:00.870000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56541,40,085,7,2024-01-19 13:04:00.873000,Critical Access Hospital
+56541,40,023,7,2024-01-19 13:04:00.860000,Skilled Nursing - Outpatient
+56541,40,018,7,2024-01-19 13:04:00.857000,Hospital - Swing Beds
+56541,40,014,7,2024-01-19 13:04:00.857000,Hospital - Laboratory Services Provided to Non-patients
+56541,40,022,7,2024-01-19 13:04:00.860000,Skilled Nursing - Inpatient (Medicare Part B only)
+56541,40,021,7,2024-01-19 13:04:00.860000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56541,40,012,7,2024-01-19 13:04:00.853000,Hospital Inpatient (Medicare Part B only)
+56541,40,013,7,2024-01-19 13:04:00.853000,Hospital Outpatient
+56542,18,999,7,2025-09-26 17:08:20.307000,Not Applicable
+56558,86,999,7,2025-11-26 13:34:36.747000,Not Applicable
+56572,22,999,7,2025-10-27 12:06:23.067000,Not Applicable
+56587,48,999,7,2026-02-06 13:52:17.083000,Not Applicable
+56588,33,013,7,2026-07-16 15:49:12.117000,Hospital Outpatient
+56588,33,085,7,2026-07-16 15:49:12.117000,Critical Access Hospital
+56588,33,083,7,2026-07-16 15:49:12.117000,Ambulatory Surgery Center
+56594,14,077,7,2026-03-16 18:22:37.137000,Clinic - Federally Qualified Health Center (FQHC)
+56594,14,073,7,2026-03-16 18:22:37.133000,Clinic - Freestanding
+56594,14,071,7,2026-03-16 18:22:37.133000,Clinic - Rural Health
+56594,14,085,7,2026-03-16 18:22:37.140000,Critical Access Hospital
+56594,14,013,7,2026-03-16 18:22:37.123000,Hospital Outpatient
+56594,14,012,7,2026-03-16 18:22:37.123000,Hospital Inpatient (Medicare Part B only)
+56594,14,011,7,2026-03-16 18:22:37.120000,Hospital Inpatient (Including Medicare Part A)
+56594,14,021,7,2026-03-16 18:22:37.127000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56594,14,022,7,2026-03-16 18:22:37.130000,Skilled Nursing - Inpatient (Medicare Part B only)
+56594,14,023,7,2026-03-16 18:22:37.130000,Skilled Nursing - Outpatient
+56602,39,021,7,2025-01-24 13:51:55.760000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56602,39,011,7,2025-01-24 13:51:55.753000,Hospital Inpatient (Including Medicare Part A)
+56602,39,012,7,2025-01-24 13:51:55.757000,Hospital Inpatient (Medicare Part B only)
+56602,39,013,7,2025-01-24 13:51:55.760000,Hospital Outpatient
+56602,39,085,7,2025-01-24 13:51:55.770000,Critical Access Hospital
+56602,39,071,7,2025-01-24 13:51:55.763000,Clinic - Rural Health
+56602,39,073,7,2025-01-24 13:51:55.763000,Clinic - Freestanding
+56602,39,083,7,2025-01-24 13:51:55.767000,Ambulatory Surgery Center
+56615,36,999,7,2025-09-26 13:56:51.193000,Not Applicable
+56631,19,999,7,2023-10-20 11:53:00.660000,Not Applicable
+56633,47,999,7,2023-11-09 23:50:22.963000,Not Applicable
+56638,37,999,7,2025-07-09 18:47:27.137000,Not Applicable
+56640,16,083,6,2019-09-06 18:27:01.183000,Ambulatory Surgery Center
+56640,16,085,6,2019-09-06 18:27:01.187000,Critical Access Hospital
+56640,16,013,6,2019-09-06 18:27:01.173000,Hospital Outpatient
+56640,16,012,6,2019-09-06 18:27:01.170000,Hospital Inpatient (Medicare Part B only)
+56640,16,021,6,2019-09-06 18:27:01.177000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56640,16,022,6,2019-09-06 18:27:01.180000,Skilled Nursing - Inpatient (Medicare Part B only)
+56640,16,014,6,2019-09-06 18:27:01.173000,Hospital - Laboratory Services Provided to Non-patients
+56640,16,018,6,2019-09-06 18:27:01.177000,Hospital - Swing Beds
+56640,16,023,6,2019-09-06 18:27:01.180000,Skilled Nursing - Outpatient
+56640,16,028,6,2019-09-06 18:27:01.183000,Skilled Nursing - Swing Beds
+56642,47,999,7,2025-07-09 18:46:27.757000,Not Applicable
+56644,29,999,7,2025-09-26 14:04:44.140000,Not Applicable
+56645,48,023,7,2024-10-18 13:49:35.873000,Skilled Nursing - Outpatient
+56645,48,014,7,2024-10-18 13:49:35.857000,Hospital - Laboratory Services Provided to Non-patients
+56645,48,022,7,2024-10-18 13:49:35.867000,Skilled Nursing - Inpatient (Medicare Part B only)
+56645,48,012,7,2024-10-18 13:49:35.840000,Hospital Inpatient (Medicare Part B only)
+56645,48,013,7,2024-10-18 13:49:35.850000,Hospital Outpatient
+56645,48,085,7,2024-10-18 13:49:35.913000,Critical Access Hospital
+56645,48,077,7,2024-10-18 13:49:35.907000,Clinic - Federally Qualified Health Center (FQHC)
+56645,48,073,7,2024-10-18 13:49:35.897000,Clinic - Freestanding
+56645,48,072,7,2024-10-18 13:49:35.890000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56645,48,071,7,2024-10-18 13:49:35.880000,Clinic - Rural Health
+56647,32,999,7,2023-11-09 23:51:49.810000,Not Applicable
+56651,36,999,7,2023-11-09 11:41:10.553000,Not Applicable
+56653,15,999,7,2024-05-31 13:36:54.750000,Not Applicable
+56666,19,072,7,2023-01-20 12:03:14.127000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56670,61,999,7,2026-04-02 15:32:43.620000,Not Applicable
+56672,16,999,7,2024-10-18 12:45:48.130000,Not Applicable
+56681,34,999,7,2023-11-09 11:38:02.570000,Not Applicable
+56682,49,083,7,2025-10-03 12:28:15.013000,Ambulatory Surgery Center
+56682,49,085,7,2025-10-03 12:28:15.017000,Critical Access Hospital
+56682,49,013,7,2025-10-03 12:28:15.013000,Hospital Outpatient
+56682,49,012,7,2025-10-03 12:28:15.010000,Hospital Inpatient (Medicare Part B only)
+56692,19,012,7,2026-07-27 17:39:25.590000,Hospital Inpatient (Medicare Part B only)
+56692,19,011,7,2026-07-27 17:39:25.587000,Hospital Inpatient (Including Medicare Part A)
+56692,19,013,7,2026-07-27 17:39:25.590000,Hospital Outpatient
+56692,19,022,7,2026-07-27 17:39:25.597000,Skilled Nursing - Inpatient (Medicare Part B only)
+56692,19,021,7,2026-07-27 17:39:25.597000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56692,19,018,7,2026-07-27 17:39:25.593000,Hospital - Swing Beds
+56692,19,023,7,2026-07-27 17:39:25.600000,Skilled Nursing - Outpatient
+56692,19,028,7,2026-07-27 17:39:25.603000,Skilled Nursing - Swing Beds
+56692,19,085,7,2026-07-27 17:39:25.613000,Critical Access Hospital
+56692,19,079,7,2026-07-27 17:39:25.610000,Clinic - Other
+56692,19,077,7,2026-07-27 17:39:25.610000,Clinic - Federally Qualified Health Center (FQHC)
+56692,19,071,7,2026-07-27 17:39:25.603000,Clinic - Rural Health
+56692,19,073,7,2026-07-27 17:39:25.607000,Clinic - Freestanding
+56696,43,999,7,2026-03-05 12:45:14.800000,Not Applicable
+56697,44,073,7,2025-10-31 21:11:10.667000,Clinic - Freestanding
+56697,44,072,7,2025-10-31 21:11:10.663000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56697,44,071,7,2025-10-31 21:11:10.630000,Clinic - Rural Health
+56697,44,077,7,2025-10-31 21:11:10.670000,Clinic - Federally Qualified Health Center (FQHC)
+56697,44,085,7,2025-10-31 21:11:10.670000,Critical Access Hospital
+56697,44,013,7,2025-10-31 21:11:10.627000,Hospital Outpatient
+56697,44,011,7,2025-10-31 21:11:10.623000,Hospital Inpatient (Including Medicare Part A)
+56697,44,012,7,2025-10-31 21:11:10.627000,Hospital Inpatient (Medicare Part B only)
+56704,10,012,7,2022-03-04 13:36:36.290000,Hospital Inpatient (Medicare Part B only)
+56704,10,013,7,2022-03-04 13:36:36.290000,Hospital Outpatient
+56704,10,085,7,2022-03-04 13:36:36.293000,Critical Access Hospital
+56717,35,085,7,2026-02-04 14:11:04.760000,Critical Access Hospital
+56717,35,077,7,2026-02-04 14:11:04.757000,Clinic - Federally Qualified Health Center (FQHC)
+56717,35,075,7,2026-02-04 14:11:04.753000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56717,35,074,7,2026-02-04 14:11:04.753000,Clinic - Outpatient Rehabilitation Facility (ORF)
+56717,35,071,7,2026-02-04 14:11:04.750000,Clinic - Rural Health
+56717,35,013,7,2026-02-04 14:11:04.740000,Hospital Outpatient
+56717,35,012,7,2026-02-04 14:11:04.737000,Hospital Inpatient (Medicare Part B only)
+56717,35,023,7,2026-02-04 14:11:04.750000,Skilled Nursing - Outpatient
+56717,35,022,7,2026-02-04 14:11:04.747000,Skilled Nursing - Inpatient (Medicare Part B only)
+56717,35,018,7,2026-02-04 14:11:04.743000,Hospital - Swing Beds
+56717,35,021,7,2026-02-04 14:11:04.743000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56722,23,012,7,2025-09-26 17:44:04.760000,Hospital Inpatient (Medicare Part B only)
+56722,23,011,7,2025-09-26 17:44:04.757000,Hospital Inpatient (Including Medicare Part A)
+56722,23,013,7,2025-09-26 17:44:04.760000,Hospital Outpatient
+56722,23,083,7,2025-09-26 17:44:04.763000,Ambulatory Surgery Center
+56722,23,085,7,2025-09-26 17:44:04.767000,Critical Access Hospital
+56773,30,999,7,2025-09-26 13:57:32.590000,Not Applicable
+56786,77,999,7,2026-07-10 13:47:46.460000,Not Applicable
+56795,34,085,7,2025-04-23 19:27:45.383000,Critical Access Hospital
+56795,34,072,7,2025-04-23 19:27:45.383000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56795,34,013,7,2025-04-23 19:27:45.377000,Hospital Outpatient
+56795,34,012,7,2025-04-23 19:27:45.370000,Hospital Inpatient (Medicare Part B only)
+56795,34,022,7,2025-04-23 19:27:45.380000,Skilled Nursing - Inpatient (Medicare Part B only)
+56795,34,023,7,2025-04-23 19:27:45.380000,Skilled Nursing - Outpatient
+56796,31,999,7,2026-01-23 13:44:53.903000,Not Applicable
+56798,29,023,7,2026-07-27 17:53:30.647000,Skilled Nursing - Outpatient
+56798,29,022,7,2026-07-27 17:53:30.643000,Skilled Nursing - Inpatient (Medicare Part B only)
+56798,29,021,7,2026-07-27 17:53:30.643000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56798,29,018,7,2026-07-27 17:53:30.640000,Hospital - Swing Beds
+56798,29,014,7,2026-07-27 17:53:30.637000,Hospital - Laboratory Services Provided to Non-patients
+56798,29,012,7,2026-07-27 17:53:30.633000,Hospital Inpatient (Medicare Part B only)
+56798,29,011,7,2026-07-27 17:53:30.630000,Hospital Inpatient (Including Medicare Part A)
+56798,29,013,7,2026-07-27 17:53:30.637000,Hospital Outpatient
+56798,29,072,7,2026-07-27 17:53:30.650000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56798,29,071,7,2026-07-27 17:53:30.650000,Clinic - Rural Health
+56798,29,073,7,2026-07-27 17:53:30.653000,Clinic - Freestanding
+56798,29,077,7,2026-07-27 17:53:30.657000,Clinic - Federally Qualified Health Center (FQHC)
+56798,29,085,7,2026-07-27 17:53:30.657000,Critical Access Hospital
+56799,29,085,7,2025-10-30 14:19:04.003000,Critical Access Hospital
+56799,29,077,7,2025-10-30 14:19:04,Clinic - Federally Qualified Health Center (FQHC)
+56799,29,075,7,2025-10-30 14:19:04,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56799,29,074,7,2025-10-30 14:19:03.997000,Clinic - Outpatient Rehabilitation Facility (ORF)
+56799,29,073,7,2025-10-30 14:19:03.993000,Clinic - Freestanding
+56799,29,071,7,2025-10-30 14:19:03.993000,Clinic - Rural Health
+56799,29,013,7,2025-10-30 14:19:03.983000,Hospital Outpatient
+56799,29,011,7,2025-10-30 14:19:03.980000,Hospital Inpatient (Including Medicare Part A)
+56799,29,012,7,2025-10-30 14:19:03.980000,Hospital Inpatient (Medicare Part B only)
+56799,29,021,7,2025-10-30 14:19:03.987000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56799,29,022,7,2025-10-30 14:19:03.987000,Skilled Nursing - Inpatient (Medicare Part B only)
+56799,29,023,7,2025-10-30 14:19:03.990000,Skilled Nursing - Outpatient
+56802,18,023,7,2025-09-26 22:16:16.337000,Skilled Nursing - Outpatient
+56802,18,022,7,2025-09-26 22:16:16.337000,Skilled Nursing - Inpatient (Medicare Part B only)
+56802,18,021,7,2025-09-26 22:16:16.333000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56802,18,018,7,2025-09-26 22:16:16.330000,Hospital - Swing Beds
+56802,18,012,7,2025-09-26 22:16:16.327000,Hospital Inpatient (Medicare Part B only)
+56802,18,013,7,2025-09-26 22:16:16.327000,Hospital Outpatient
+56802,18,074,7,2025-09-26 22:16:16.340000,Clinic - Outpatient Rehabilitation Facility (ORF)
+56802,18,085,7,2025-09-26 22:16:16.343000,Critical Access Hospital
+56805,41,085,7,2025-09-26 17:13:53.843000,Critical Access Hospital
+56805,41,083,7,2025-09-26 17:13:53.840000,Ambulatory Surgery Center
+56805,41,013,7,2025-09-26 17:13:53.840000,Hospital Outpatient
+56805,41,012,7,2025-09-26 17:13:53.833000,Hospital Inpatient (Medicare Part B only)
+56809,20,012,7,2025-08-29 17:15:27.157000,Hospital Inpatient (Medicare Part B only)
+56809,20,011,7,2025-08-29 17:15:27.153000,Hospital Inpatient (Including Medicare Part A)
+56809,20,013,7,2025-08-29 17:15:27.160000,Hospital Outpatient
+56809,20,021,7,2025-08-29 17:15:27.160000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56809,20,077,7,2025-08-29 17:15:27.170000,Clinic - Federally Qualified Health Center (FQHC)
+56809,20,071,7,2025-08-29 17:15:27.163000,Clinic - Rural Health
+56809,20,073,7,2025-08-29 17:15:27.167000,Clinic - Freestanding
+56809,20,085,7,2025-08-29 17:15:27.170000,Critical Access Hospital
+56811,13,085,7,2025-09-19 13:08:35.797000,Critical Access Hospital
+56811,13,073,7,2025-09-19 13:08:35.790000,Clinic - Freestanding
+56811,13,071,7,2025-09-19 13:08:35.790000,Clinic - Rural Health
+56811,13,077,7,2025-09-19 13:08:35.793000,Clinic - Federally Qualified Health Center (FQHC)
+56811,13,013,7,2025-09-19 13:08:35.787000,Hospital Outpatient
+56811,13,011,7,2025-09-19 13:08:35.783000,Hospital Inpatient (Including Medicare Part A)
+56811,13,012,7,2025-09-19 13:08:35.783000,Hospital Inpatient (Medicare Part B only)
+56816,16,012,7,2026-02-20 21:11:46.623000,Hospital Inpatient (Medicare Part B only)
+56816,16,011,7,2026-02-20 21:11:46.620000,Hospital Inpatient (Including Medicare Part A)
+56816,16,013,7,2026-02-20 21:11:46.627000,Hospital Outpatient
+56816,16,071,7,2026-02-20 21:11:46.630000,Clinic - Rural Health
+56816,16,077,7,2026-02-20 21:11:46.633000,Clinic - Federally Qualified Health Center (FQHC)
+56816,16,073,7,2026-02-20 21:11:46.630000,Clinic - Freestanding
+56816,16,085,7,2026-02-20 21:11:46.637000,Critical Access Hospital
+56836,18,085,7,2026-04-29 15:39:35.127000,Critical Access Hospital
+56836,18,073,7,2026-04-29 15:39:35.123000,Clinic - Freestanding
+56836,18,071,7,2026-04-29 15:39:35.120000,Clinic - Rural Health
+56836,18,077,7,2026-04-29 15:39:35.123000,Clinic - Federally Qualified Health Center (FQHC)
+56836,18,013,7,2026-04-29 15:39:35.120000,Hospital Outpatient
+56836,18,011,7,2026-04-29 15:39:35.117000,Hospital Inpatient (Including Medicare Part A)
+56841,18,999,7,2023-10-20 11:51:57.253000,Not Applicable
+56848,16,999,7,2025-01-24 13:54:16.310000,Not Applicable
+56850,33,013,7,2026-07-14 22:43:02.740000,Hospital Outpatient
+56850,33,076,7,2026-07-14 22:43:02.740000,Clinic - Community Mental Health Center
+56850,33,085,7,2026-07-14 22:43:02.740000,Critical Access Hospital
+56866,21,085,7,2026-06-12 13:29:34.230000,Critical Access Hospital
+56866,21,083,7,2026-06-12 13:29:34.227000,Ambulatory Surgery Center
+56866,21,013,7,2026-06-12 13:29:34.227000,Hospital Outpatient
+56868,30,013,7,2025-08-22 19:20:56.087000,Hospital Outpatient
+56868,30,012,7,2025-08-22 19:20:56.083000,Hospital Inpatient (Medicare Part B only)
+56868,30,071,7,2025-08-22 19:20:56.100000,Clinic - Rural Health
+56868,30,034,7,2025-08-22 19:20:56.097000,Home Health Services not under a plan of treatment
+56868,30,022,7,2025-08-22 19:20:56.093000,Skilled Nursing - Inpatient (Medicare Part B only)
+56868,30,023,7,2025-08-22 19:20:56.097000,Skilled Nursing - Outpatient
+56868,30,021,7,2025-08-22 19:20:56.090000,Skilled Nursing - Inpatient (Including Medicare Part A)
+56868,30,018,7,2025-08-22 19:20:56.090000,Hospital - Swing Beds
+56868,30,077,7,2025-08-22 19:20:56.107000,Clinic - Federally Qualified Health Center (FQHC)
+56868,30,074,7,2025-08-22 19:20:56.100000,Clinic - Outpatient Rehabilitation Facility (ORF)
+56868,30,075,7,2025-08-22 19:20:56.103000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56868,30,085,7,2025-08-22 19:20:56.110000,Critical Access Hospital
+56900,23,085,7,2025-09-17 17:04:26.100000,Critical Access Hospital
+56900,23,075,7,2025-09-17 17:04:26.077000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56900,23,077,7,2025-09-17 17:04:26.083000,Clinic - Federally Qualified Health Center (FQHC)
+56900,23,083,7,2025-09-17 17:04:26.093000,Ambulatory Surgery Center
+56900,23,071,7,2025-09-17 17:04:26.060000,Clinic - Rural Health
+56900,23,072,7,2025-09-17 17:04:26.067000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56900,23,023,7,2025-09-17 17:04:26.050000,Skilled Nursing - Outpatient
+56900,23,022,7,2025-09-17 17:04:26.043000,Skilled Nursing - Inpatient (Medicare Part B only)
+56900,23,012,7,2025-09-17 17:04:26.027000,Hospital Inpatient (Medicare Part B only)
+56900,23,013,7,2025-09-17 17:04:26.033000,Hospital Outpatient
+56923,16,013,7,2023-01-20 12:08:35.100000,Hospital Outpatient
+56938,46,999,7,2022-01-14 13:50:48.133000,Not Applicable
+56941,7,022,7,2021-10-07 11:42:28.800000,Skilled Nursing - Inpatient (Medicare Part B only)
+56948,23,014,7,2025-08-18 19:13:33.023000,Hospital - Laboratory Services Provided to Non-patients
+56948,23,022,7,2025-08-18 19:13:33.027000,Skilled Nursing - Inpatient (Medicare Part B only)
+56948,23,023,7,2025-08-18 19:13:33.030000,Skilled Nursing - Outpatient
+56948,23,071,7,2025-08-18 19:13:33.030000,Clinic - Rural Health
+56948,23,013,7,2025-08-18 19:13:33.020000,Hospital Outpatient
+56948,23,012,7,2025-08-18 19:13:33.020000,Hospital Inpatient (Medicare Part B only)
+56948,23,072,7,2025-08-18 19:13:33.033000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56948,23,077,7,2025-08-18 19:13:33.037000,Clinic - Federally Qualified Health Center (FQHC)
+56948,23,075,7,2025-08-18 19:13:33.037000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56948,23,085,7,2025-08-18 19:13:33.040000,Critical Access Hospital
+56952,50,999,7,2026-01-23 14:15:06.547000,Not Applicable
+56953,25,999,7,2022-01-14 13:57:32.357000,Not Applicable
+56983,12,022,7,2024-08-14 19:41:57.093000,Skilled Nursing - Inpatient (Medicare Part B only)
+56988,17,023,7,2025-11-26 22:42:01.633000,Skilled Nursing - Outpatient
+56988,17,014,7,2025-11-26 22:42:01.630000,Hospital - Laboratory Services Provided to Non-patients
+56988,17,022,7,2025-11-26 22:42:01.633000,Skilled Nursing - Inpatient (Medicare Part B only)
+56988,17,012,7,2025-11-26 22:42:01.627000,Hospital Inpatient (Medicare Part B only)
+56988,17,013,7,2025-11-26 22:42:01.627000,Hospital Outpatient
+56988,17,085,7,2025-11-26 22:42:01.647000,Critical Access Hospital
+56988,17,075,7,2025-11-26 22:42:01.640000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+56988,17,077,7,2025-11-26 22:42:01.643000,Clinic - Federally Qualified Health Center (FQHC)
+56988,17,071,7,2025-11-26 22:42:01.637000,Clinic - Rural Health
+56988,17,072,7,2025-11-26 22:42:01.640000,Clinic - Hospital Based or Independent Renal Dialysis Center
+56989,11,0,7,2023-11-08 16:59:19.803000,TBD
+57025,21,999,7,2025-01-24 13:58:48.500000,Not Applicable
+57029,10,999,7,2022-10-28 13:23:02.540000,Not Applicable
+57037,24,999,7,2026-01-12 13:44:32.313000,Not Applicable
+57038,16,011,7,2025-08-29 17:00:59.120000,Hospital Inpatient (Including Medicare Part A)
+57038,16,012,7,2025-08-29 17:00:59.127000,Hospital Inpatient (Medicare Part B only)
+57038,16,013,7,2025-08-29 17:00:59.130000,Hospital Outpatient
+57038,16,022,7,2025-08-29 17:00:59.133000,Skilled Nursing - Inpatient (Medicare Part B only)
+57038,16,023,7,2025-08-29 17:00:59.137000,Skilled Nursing - Outpatient
+57038,16,071,7,2025-08-29 17:00:59.140000,Clinic - Rural Health
+57038,16,073,7,2025-08-29 17:00:59.143000,Clinic - Freestanding
+57038,16,077,7,2025-08-29 17:00:59.150000,Clinic - Federally Qualified Health Center (FQHC)
+57038,16,085,7,2025-08-29 17:00:59.160000,Critical Access Hospital
+57039,9,085,7,2025-08-29 16:39:28.030000,Critical Access Hospital
+57039,9,073,7,2025-08-29 16:39:28.027000,Clinic - Freestanding
+57039,9,071,7,2025-08-29 16:39:28.023000,Clinic - Rural Health
+57039,9,072,7,2025-08-29 16:39:28.027000,Clinic - Hospital Based or Independent Renal Dialysis Center
+57039,9,023,7,2025-08-29 16:39:28.020000,Skilled Nursing - Outpatient
+57039,9,022,7,2025-08-29 16:39:28.020000,Skilled Nursing - Inpatient (Medicare Part B only)
+57039,9,021,7,2025-08-29 16:39:28.017000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57039,9,013,7,2025-08-29 16:39:28.013000,Hospital Outpatient
+57039,9,012,7,2025-08-29 16:39:28.010000,Hospital Inpatient (Medicare Part B only)
+57040,26,012,7,2026-07-27 17:49:56.333000,Hospital Inpatient (Medicare Part B only)
+57040,26,018,7,2026-07-27 17:49:56.337000,Hospital - Swing Beds
+57040,26,021,7,2026-07-27 17:49:56.340000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57040,26,013,7,2026-07-27 17:49:56.333000,Hospital Outpatient
+57040,26,022,7,2026-07-27 17:49:56.340000,Skilled Nursing - Inpatient (Medicare Part B only)
+57040,26,034,7,2026-07-27 17:49:56.347000,Home Health Services not under a plan of treatment
+57040,26,023,7,2026-07-27 17:49:56.343000,Skilled Nursing - Outpatient
+57040,26,071,7,2026-07-27 17:49:56.347000,Clinic - Rural Health
+57040,26,075,7,2026-07-27 17:49:56.350000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57040,26,074,7,2026-07-27 17:49:56.350000,Clinic - Outpatient Rehabilitation Facility (ORF)
+57040,26,077,7,2026-07-27 17:49:56.353000,Clinic - Federally Qualified Health Center (FQHC)
+57040,26,085,7,2026-07-27 17:49:56.357000,Critical Access Hospital
+57041,21,085,7,2026-04-02 15:40:48.433000,Critical Access Hospital
+57041,21,077,7,2026-04-02 15:40:48.423000,Clinic - Federally Qualified Health Center (FQHC)
+57041,21,071,7,2026-04-02 15:40:48.403000,Clinic - Rural Health
+57041,21,073,7,2026-04-02 15:40:48.417000,Clinic - Freestanding
+57041,21,023,7,2026-04-02 15:40:48.400000,Skilled Nursing - Outpatient
+57041,21,022,7,2026-04-02 15:40:48.397000,Skilled Nursing - Inpatient (Medicare Part B only)
+57041,21,013,7,2026-04-02 15:40:48.300000,Hospital Outpatient
+57041,21,021,7,2026-04-02 15:40:48.303000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57041,21,012,7,2026-04-02 15:40:48.297000,Hospital Inpatient (Medicare Part B only)
+57041,21,011,7,2026-04-02 15:40:48.290000,Hospital Inpatient (Including Medicare Part A)
+57043,24,011,7,2026-07-27 16:54:52.047000,Hospital Inpatient (Including Medicare Part A)
+57043,24,012,7,2026-07-27 16:54:52.050000,Hospital Inpatient (Medicare Part B only)
+57043,24,013,7,2026-07-27 16:54:52.050000,Hospital Outpatient
+57043,24,014,7,2026-07-27 16:54:52.053000,Hospital - Laboratory Services Provided to Non-patients
+57043,24,073,7,2026-07-27 16:54:52.060000,Clinic - Freestanding
+57043,24,071,7,2026-07-27 16:54:52.057000,Clinic - Rural Health
+57043,24,077,7,2026-07-27 16:54:52.060000,Clinic - Federally Qualified Health Center (FQHC)
+57043,24,085,7,2026-07-27 16:54:52.063000,Critical Access Hospital
+57050,13,085,7,2026-03-16 18:26:42.320000,Critical Access Hospital
+57050,13,077,7,2026-03-16 18:26:42.313000,Clinic - Federally Qualified Health Center (FQHC)
+57050,13,071,7,2026-03-16 18:26:42.290000,Clinic - Rural Health
+57050,13,073,7,2026-03-16 18:26:42.300000,Clinic - Freestanding
+57050,13,013,7,2026-03-16 18:26:42.240000,Hospital Outpatient
+57050,13,021,7,2026-03-16 18:26:42.250000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57050,13,022,7,2026-03-16 18:26:42.263000,Skilled Nursing - Inpatient (Medicare Part B only)
+57050,13,023,7,2026-03-16 18:26:42.277000,Skilled Nursing - Outpatient
+57050,13,012,7,2026-03-16 18:26:42.227000,Hospital Inpatient (Medicare Part B only)
+57050,13,011,7,2026-03-16 18:26:42.213000,Hospital Inpatient (Including Medicare Part A)
+57052,18,011,7,2026-04-03 12:59:07.270000,Hospital Inpatient (Including Medicare Part A)
+57053,22,013,7,2026-04-02 15:31:10.530000,Hospital Outpatient
+57053,22,076,7,2026-04-02 15:31:10.537000,Clinic - Community Mental Health Center
+57053,22,085,7,2026-04-02 15:31:10.550000,Critical Access Hospital
+57054,12,085,7,2026-04-02 15:33:45.140000,Critical Access Hospital
+57054,12,075,7,2026-04-02 15:33:45.137000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57054,12,013,7,2026-04-02 15:33:45.133000,Hospital Outpatient
+57054,12,012,7,2026-04-02 15:33:45.130000,Hospital Inpatient (Medicare Part B only)
+57056,44,999,7,2025-10-03 12:29:19.267000,Not Applicable
+57063,29,999,7,2025-09-26 17:19:10.980000,Not Applicable
+57065,32,085,7,2026-05-29 20:46:54.657000,Critical Access Hospital
+57065,32,075,7,2026-05-29 20:46:54.650000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57065,32,076,7,2026-05-29 20:46:54.653000,Clinic - Community Mental Health Center
+57065,32,077,7,2026-05-29 20:46:54.653000,Clinic - Federally Qualified Health Center (FQHC)
+57065,32,071,7,2026-05-29 20:46:54.650000,Clinic - Rural Health
+57065,32,012,7,2026-05-29 20:46:54.647000,Hospital Inpatient (Medicare Part B only)
+57065,32,013,7,2026-05-29 20:46:54.647000,Hospital Outpatient
+57067,34,013,7,2026-05-29 21:16:57.227000,Hospital Outpatient
+57067,34,023,7,2026-05-29 21:16:57.230000,Skilled Nursing - Outpatient
+57067,34,022,7,2026-05-29 21:16:57.230000,Skilled Nursing - Inpatient (Medicare Part B only)
+57067,34,012,7,2026-05-29 21:16:57.223000,Hospital Inpatient (Medicare Part B only)
+57067,34,075,7,2026-05-29 21:16:57.237000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57067,34,074,7,2026-05-29 21:16:57.233000,Clinic - Outpatient Rehabilitation Facility (ORF)
+57067,34,085,7,2026-05-29 21:16:57.240000,Critical Access Hospital
+57068,17,085,7,2026-04-29 16:31:51.307000,Critical Access Hospital
+57068,17,077,7,2026-04-29 16:31:51.303000,Clinic - Federally Qualified Health Center (FQHC)
+57068,17,071,7,2026-04-29 16:31:51.300000,Clinic - Rural Health
+57068,17,073,7,2026-04-29 16:31:51.300000,Clinic - Freestanding
+57068,17,012,7,2026-04-29 16:31:51.293000,Hospital Inpatient (Medicare Part B only)
+57068,17,011,7,2026-04-29 16:31:51.293000,Hospital Inpatient (Including Medicare Part A)
+57068,17,013,7,2026-04-29 16:31:51.297000,Hospital Outpatient
+57070,16,013,7,2026-05-29 21:20:00.457000,Hospital Outpatient
+57070,16,073,7,2026-05-29 21:20:00.460000,Clinic - Freestanding
+57070,16,071,7,2026-05-29 21:20:00.460000,Clinic - Rural Health
+57070,16,077,7,2026-05-29 21:20:00.463000,Clinic - Federally Qualified Health Center (FQHC)
+57070,16,085,7,2026-05-29 21:20:00.467000,Critical Access Hospital
+57070,16,999,7,2026-05-29 21:20:00.470000,Not Applicable
+57071,36,085,7,2026-05-29 21:30:01.563000,Critical Access Hospital
+57071,36,077,7,2026-05-29 21:30:01.560000,Clinic - Federally Qualified Health Center (FQHC)
+57071,36,071,7,2026-05-29 21:30:01.557000,Clinic - Rural Health
+57071,36,073,7,2026-05-29 21:30:01.560000,Clinic - Freestanding
+57071,36,013,7,2026-05-29 21:30:01.553000,Hospital Outpatient
+57071,36,021,7,2026-05-29 21:30:01.557000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57071,36,012,7,2026-05-29 21:30:01.550000,Hospital Inpatient (Medicare Part B only)
+57072,17,999,7,2023-06-29 17:20:47.930000,Not Applicable
+57077,29,999,7,2024-10-18 13:54:49.147000,Not Applicable
+57079,15,999,7,2026-03-24 16:38:13.160000,Not Applicable
+57083,14,085,7,2026-02-23 13:14:48.510000,Critical Access Hospital
+57083,14,071,7,2026-02-23 13:14:48.510000,Clinic - Rural Health
+57083,14,072,7,2026-02-23 13:14:48.510000,Clinic - Hospital Based or Independent Renal Dialysis Center
+57083,14,077,7,2026-02-23 13:14:48.510000,Clinic - Federally Qualified Health Center (FQHC)
+57083,14,012,7,2026-02-23 13:14:48.510000,Hospital Inpatient (Medicare Part B only)
+57083,14,021,7,2026-02-23 13:14:48.510000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57083,14,013,7,2026-02-23 13:14:48.510000,Hospital Outpatient
+57083,14,014,7,2026-02-23 13:14:48.510000,Hospital - Laboratory Services Provided to Non-patients
+57083,14,022,7,2026-02-23 13:14:48.510000,Skilled Nursing - Inpatient (Medicare Part B only)
+57083,14,023,7,2026-02-23 13:14:48.510000,Skilled Nursing - Outpatient
+57113,44,013,7,2026-01-23 13:45:56.630000,Hospital Outpatient
+57113,44,012,7,2026-01-23 13:45:56.630000,Hospital Inpatient (Medicare Part B only)
+57113,44,085,7,2026-01-23 13:45:56.637000,Critical Access Hospital
+57113,44,083,7,2026-01-23 13:45:56.633000,Ambulatory Surgery Center
+57114,21,999,7,2026-07-17 17:54:54.127000,Not Applicable
+57115,10,999,7,2026-01-23 14:15:55.913000,Not Applicable
+57118,3,999,6,2019-10-02 17:03:59.090000,Not Applicable
+57122,23,999,7,2025-12-12 14:46:47.537000,Not Applicable
+57123,61,999,7,2025-09-26 17:05:42.387000,Not Applicable
+57125,22,999,7,2024-10-18 13:43:38.980000,Not Applicable
+57130,51,999,7,2025-09-26 13:58:25.523000,Not Applicable
+57132,19,085,7,2023-12-29 17:42:59.127000,Critical Access Hospital
+57132,19,077,7,2023-12-29 17:42:59.127000,Clinic - Federally Qualified Health Center (FQHC)
+57132,19,072,7,2023-12-29 17:42:59.120000,Clinic - Hospital Based or Independent Renal Dialysis Center
+57132,19,071,7,2023-12-29 17:42:59.120000,Clinic - Rural Health
+57132,19,073,7,2023-12-29 17:42:59.123000,Clinic - Freestanding
+57132,19,012,7,2023-12-29 17:42:59.110000,Hospital Inpatient (Medicare Part B only)
+57132,19,013,7,2023-12-29 17:42:59.110000,Hospital Outpatient
+57132,19,023,7,2023-12-29 17:42:59.117000,Skilled Nursing - Outpatient
+57132,19,034,7,2023-12-29 17:42:59.117000,Home Health Services not under a plan of treatment
+57132,19,022,7,2023-12-29 17:42:59.113000,Skilled Nursing - Inpatient (Medicare Part B only)
+57145,32,999,7,2026-01-23 14:16:52.987000,Not Applicable
+57149,20,083,7,2026-02-27 19:14:14.463000,Ambulatory Surgery Center
+57149,20,013,7,2026-02-27 19:14:14.460000,Hospital Outpatient
+57161,22,999,7,2025-12-22 15:21:37.440000,Not Applicable
+57179,22,999,7,2026-02-20 14:56:44.183000,Not Applicable
+57183,23,999,7,2025-12-22 15:16:12.013000,Not Applicable
+57187,39,085,7,2026-06-24 12:20:47.743000,Critical Access Hospital
+57187,39,013,7,2026-06-24 12:20:47.737000,Hospital Outpatient
+57187,39,022,7,2026-06-24 12:20:47.740000,Skilled Nursing - Inpatient (Medicare Part B only)
+57187,39,023,7,2026-06-24 12:20:47.740000,Skilled Nursing - Outpatient
+57187,39,012,7,2026-06-24 12:20:47.737000,Hospital Inpatient (Medicare Part B only)
+57188,27,999,7,2025-09-26 17:23:31.200000,Not Applicable
+57189,28,085,7,2025-10-06 18:48:51.327000,Critical Access Hospital
+57189,28,012,7,2025-10-06 18:48:51.327000,Hospital Inpatient (Medicare Part B only)
+57189,28,023,7,2025-10-06 18:48:51.327000,Skilled Nursing - Outpatient
+57189,28,022,7,2025-10-06 18:48:51.327000,Skilled Nursing - Inpatient (Medicare Part B only)
+57189,28,013,7,2025-10-06 18:48:51.327000,Hospital Outpatient
+57189,28,014,7,2025-10-06 18:48:51.327000,Hospital - Laboratory Services Provided to Non-patients
+57190,11,999,7,2025-10-06 18:48:47.940000,Not Applicable
+57193,31,085,7,2026-07-27 17:30:25.130000,Critical Access Hospital
+57193,31,074,7,2026-07-27 17:30:25.127000,Clinic - Outpatient Rehabilitation Facility (ORF)
+57193,31,075,7,2026-07-27 17:30:25.127000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57193,31,013,7,2026-07-27 17:30:25.120000,Hospital Outpatient
+57193,31,022,7,2026-07-27 17:30:25.123000,Skilled Nursing - Inpatient (Medicare Part B only)
+57193,31,012,7,2026-07-27 17:30:25.120000,Hospital Inpatient (Medicare Part B only)
+57195,29,999,7,2025-10-15 21:14:42.477000,Not Applicable
+57204,45,085,7,2026-05-05 18:30:56.297000,Critical Access Hospital
+57204,45,012,7,2026-05-05 18:30:56.287000,Hospital Inpatient (Medicare Part B only)
+57204,45,022,7,2026-05-05 18:30:56.290000,Skilled Nursing - Inpatient (Medicare Part B only)
+57204,45,023,7,2026-05-05 18:30:56.293000,Skilled Nursing - Outpatient
+57204,45,013,7,2026-05-05 18:30:56.290000,Hospital Outpatient
+57205,39,013,7,2026-01-23 14:08:15.710000,Hospital Outpatient
+57205,39,021,7,2026-01-23 14:08:15.713000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57205,39,018,7,2026-01-23 14:08:15.710000,Hospital - Swing Beds
+57205,39,023,7,2026-01-23 14:08:15.717000,Skilled Nursing - Outpatient
+57205,39,022,7,2026-01-23 14:08:15.713000,Skilled Nursing - Inpatient (Medicare Part B only)
+57205,39,012,7,2026-01-23 14:08:15.707000,Hospital Inpatient (Medicare Part B only)
+57205,39,085,7,2026-01-23 14:08:15.727000,Critical Access Hospital
+57205,39,075,7,2026-01-23 14:08:15.723000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57205,39,074,7,2026-01-23 14:08:15.720000,Clinic - Outpatient Rehabilitation Facility (ORF)
+57205,39,077,7,2026-01-23 14:08:15.727000,Clinic - Federally Qualified Health Center (FQHC)
+57205,39,071,7,2026-01-23 14:08:15.720000,Clinic - Rural Health
+57206,30,999,7,2025-10-14 13:00:41.980000,Not Applicable
+57221,25,999,7,2025-10-06 18:48:49.530000,Not Applicable
+57224,68,085,7,2026-06-03 14:40:10.520000,Critical Access Hospital
+57224,68,071,7,2026-06-03 14:40:10.510000,Clinic - Rural Health
+57224,68,077,7,2026-06-03 14:40:10.517000,Clinic - Federally Qualified Health Center (FQHC)
+57224,68,074,7,2026-06-03 14:40:10.513000,Clinic - Outpatient Rehabilitation Facility (ORF)
+57224,68,075,7,2026-06-03 14:40:10.513000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57224,68,012,7,2026-06-03 14:40:10.500000,Hospital Inpatient (Medicare Part B only)
+57224,68,023,7,2026-06-03 14:40:10.507000,Skilled Nursing - Outpatient
+57224,68,018,7,2026-06-03 14:40:10.503000,Hospital - Swing Beds
+57224,68,021,7,2026-06-03 14:40:10.507000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57224,68,013,7,2026-06-03 14:40:10.500000,Hospital Outpatient
+57237,11,999,7,2025-10-06 18:48:48.710000,Not Applicable
+57282,18,085,7,2025-09-30 23:56:42.550000,Critical Access Hospital
+57282,18,013,7,2025-09-30 23:56:42.547000,Hospital Outpatient
+57282,18,012,7,2025-09-30 23:56:42.543000,Hospital Inpatient (Medicare Part B only)
+57282,18,011,7,2025-09-30 23:56:42.543000,Hospital Inpatient (Including Medicare Part A)
+57284,14,011,7,2026-05-22 16:11:18.750000,Hospital Inpatient (Including Medicare Part A)
+57284,14,013,7,2026-05-22 16:11:18.753000,Hospital Outpatient
+57284,14,085,7,2026-05-22 16:11:18.757000,Critical Access Hospital
+57284,14,083,7,2026-05-22 16:11:18.757000,Ambulatory Surgery Center
+57305,14,085,7,2025-10-03 22:20:28.180000,Critical Access Hospital
+57305,14,077,7,2025-10-03 22:20:28.177000,Clinic - Federally Qualified Health Center (FQHC)
+57305,14,071,7,2025-10-03 22:20:28.173000,Clinic - Rural Health
+57305,14,073,7,2025-10-03 22:20:28.177000,Clinic - Freestanding
+57305,14,013,7,2025-10-03 22:20:28.170000,Hospital Outpatient
+57305,14,011,7,2025-10-03 22:20:28.167000,Hospital Inpatient (Including Medicare Part A)
+57305,14,012,7,2025-10-03 22:20:28.170000,Hospital Inpatient (Medicare Part B only)
+57306,44,012,7,2026-04-10 11:41:13.100000,Hospital Inpatient (Medicare Part B only)
+57306,44,011,7,2026-04-10 11:41:13.097000,Hospital Inpatient (Including Medicare Part A)
+57306,44,013,7,2026-04-10 11:41:13.103000,Hospital Outpatient
+57306,44,021,7,2026-04-10 11:41:13.103000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57306,44,023,7,2026-04-10 11:41:13.110000,Skilled Nursing - Outpatient
+57306,44,022,7,2026-04-10 11:41:13.107000,Skilled Nursing - Inpatient (Medicare Part B only)
+57306,44,073,7,2026-04-10 11:41:13.113000,Clinic - Freestanding
+57306,44,071,7,2026-04-10 11:41:13.110000,Clinic - Rural Health
+57306,44,077,7,2026-04-10 11:41:13.117000,Clinic - Federally Qualified Health Center (FQHC)
+57306,44,085,7,2026-04-10 11:41:13.117000,Critical Access Hospital
+57307,38,085,7,2026-04-29 16:23:02.590000,Critical Access Hospital
+57307,38,071,7,2026-04-29 16:23:02.587000,Clinic - Rural Health
+57307,38,022,7,2026-04-29 16:23:02.580000,Skilled Nursing - Inpatient (Medicare Part B only)
+57307,38,023,7,2026-04-29 16:23:02.583000,Skilled Nursing - Outpatient
+57307,38,021,7,2026-04-29 16:23:02.580000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57307,38,013,7,2026-04-29 16:23:02.577000,Hospital Outpatient
+57307,38,012,7,2026-04-29 16:23:02.573000,Hospital Inpatient (Medicare Part B only)
+57326,42,999,7,2026-07-31 15:09:20.007000,Not Applicable
+57329,18,999,7,2026-01-26 13:24:19.913000,Not Applicable
+57331,61,999,7,2026-07-24 12:49:09.943000,Not Applicable
+57342,31,999,7,2025-10-27 12:06:20.167000,Not Applicable
+57361,46,999,7,2026-01-23 14:09:14.650000,Not Applicable
+57363,14,999,7,2026-01-12 13:44:32.987000,Not Applicable
+57372,18,999,7,2026-01-26 13:24:20.070000,Not Applicable
+57414,30,999,7,2025-09-26 13:59:14.293000,Not Applicable
+57423,16,0,7,2026-01-12 13:44:33.703000,TBD
+57432,12,022,7,2026-01-12 13:44:34.020000,Skilled Nursing - Inpatient (Medicare Part B only)
+57434,35,022,7,2025-09-26 17:30:19.233000,Skilled Nursing - Inpatient (Medicare Part B only)
+57434,35,023,7,2025-09-26 17:30:19.240000,Skilled Nursing - Outpatient
+57434,35,028,7,2025-09-26 17:30:19.250000,Skilled Nursing - Swing Beds
+57434,35,013,7,2025-09-26 17:30:19.207000,Hospital Outpatient
+57434,35,021,7,2025-09-26 17:30:19.223000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57434,35,018,7,2025-09-26 17:30:19.217000,Hospital - Swing Beds
+57434,35,012,7,2025-09-26 17:30:19.193000,Hospital Inpatient (Medicare Part B only)
+57434,35,085,7,2025-09-26 17:30:19.277000,Critical Access Hospital
+57434,35,073,7,2025-09-26 17:30:19.260000,Clinic - Freestanding
+57434,35,077,7,2025-09-26 17:30:19.267000,Clinic - Federally Qualified Health Center (FQHC)
+57449,24,999,7,2025-09-26 17:31:39.930000,Not Applicable
+57450,14,999,7,2025-09-26 17:32:23.170000,Not Applicable
+57451,38,999,7,2024-01-19 13:06:50.077000,Not Applicable
+57477,15,085,7,2026-07-24 12:24:42.063000,Critical Access Hospital
+57477,15,073,7,2026-07-24 12:24:42.060000,Clinic - Freestanding
+57477,15,071,7,2026-07-24 12:24:42.060000,Clinic - Rural Health
+57477,15,011,7,2026-07-24 12:24:42.053000,Hospital Inpatient (Including Medicare Part A)
+57477,15,013,7,2026-07-24 12:24:42.057000,Hospital Outpatient
+57478,40,013,7,2025-09-16 18:52:15.010000,Hospital Outpatient
+57478,40,021,7,2025-09-16 18:52:15.013000,Skilled Nursing - Inpatient (Including Medicare Part A)
+57478,40,023,7,2025-09-16 18:52:15.020000,Skilled Nursing - Outpatient
+57478,40,022,7,2025-09-16 18:52:15.017000,Skilled Nursing - Inpatient (Medicare Part B only)
+57478,40,012,7,2025-09-16 18:52:15.010000,Hospital Inpatient (Medicare Part B only)
+57478,40,071,7,2025-09-16 18:52:15.023000,Clinic - Rural Health
+57478,40,085,7,2025-09-16 18:52:15.027000,Critical Access Hospital
+57484,22,999,7,2026-02-11 19:03:25.293000,Not Applicable
+57496,14,999,7,2024-05-10 11:50:09.990000,Not Applicable
+57497,15,999,7,2025-10-27 12:06:19.953000,Not Applicable
+57512,19,999,7,2025-09-04 19:01:26.410000,Not Applicable
+57520,43,999,7,2025-01-24 13:57:27.320000,Not Applicable
+57531,60,999,7,2025-11-26 13:36:14.740000,Not Applicable
+57540,15,999,7,2025-09-26 17:40:20.507000,Not Applicable
+57593,17,999,7,2025-09-18 19:39:59.437000,Not Applicable
+57594,22,999,7,2025-12-23 20:45:44.877000,Not Applicable
+57600,34,999,7,2025-09-26 14:00:00.657000,Not Applicable
+57607,15,999,7,2026-01-12 13:44:33.487000,Not Applicable
+57611,16,0,7,2025-09-09 16:37:28.700000,TBD
+57614,15,0,7,2025-09-09 16:38:35.673000,TBD
+57618,24,999,7,2025-01-24 13:58:14.873000,Not Applicable
+57621,17,999,7,2026-01-12 13:44:33.407000,Not Applicable
+57633,8,999,7,2025-01-24 17:53:14.123000,Not Applicable
+57636,24,999,7,2025-09-26 14:08:29.283000,Not Applicable
+57637,20,999,7,2025-09-26 17:41:11.393000,Not Applicable
+57638,7,999,7,2024-01-19 13:57:49.493000,Not Applicable
+57643,20,085,7,2025-09-04 19:00:32.870000,Critical Access Hospital
+57643,20,071,7,2025-09-04 19:00:32.837000,Clinic - Rural Health
+57643,20,072,7,2025-09-04 19:00:32.843000,Clinic - Hospital Based or Independent Renal Dialysis Center
+57643,20,077,7,2025-09-04 19:00:32.860000,Clinic - Federally Qualified Health Center (FQHC)
+57643,20,075,7,2025-09-04 19:00:32.850000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+57643,20,012,7,2025-09-04 19:00:32.793000,Hospital Inpatient (Medicare Part B only)
+57643,20,022,7,2025-09-04 19:00:32.820000,Skilled Nursing - Inpatient (Medicare Part B only)
+57643,20,023,7,2025-09-04 19:00:32.827000,Skilled Nursing - Outpatient
+57643,20,013,7,2025-09-04 19:00:32.800000,Hospital Outpatient
+57643,20,014,7,2025-09-04 19:00:32.810000,Hospital - Laboratory Services Provided to Non-patients
+57647,17,999,7,2023-07-07 12:25:58.193000,Not Applicable
+57649,9,999,7,2023-10-20 12:29:56.940000,Not Applicable
+57651,5,999,6,2019-11-21 21:53:25.413000,Not Applicable
+57657,25,999,7,2024-10-18 14:00:59.763000,Not Applicable
+57660,6,999,6,2019-11-22 23:00:14.677000,Not Applicable
+57666,36,999,7,2026-01-23 14:12:38.930000,Not Applicable
+57667,10,999,6,2020-09-25 15:39:19.017000,Not Applicable
+57669,10,999,7,2025-09-26 14:09:18.730000,Not Applicable
+57670,8,999,7,2026-02-06 14:44:55.883000,Not Applicable
+57672,6,999,6,2019-11-22 23:07:18.173000,Not Applicable
+57677,14,999,7,2024-10-18 12:55:41.067000,Not Applicable
+57678,11,999,7,2025-09-26 14:05:18.567000,Not Applicable
+57680,9,999,7,2026-01-23 13:41:12.340000,Not Applicable
+57682,6,999,6,2020-09-25 15:55:53.677000,Not Applicable
+57683,11,999,7,2025-10-27 12:06:24.197000,Not Applicable
+57685,15,999,7,2025-12-23 00:27:27.380000,Not Applicable
+57689,44,999,7,2025-10-27 12:06:22.993000,Not Applicable
+57697,16,999,7,2025-09-04 19:02:55.563000,Not Applicable
+57701,30,085,7,2025-12-22 16:36:18.170000,Critical Access Hospital
+57701,30,071,7,2025-12-22 16:36:18.167000,Clinic - Rural Health
+57701,30,073,7,2025-12-22 16:36:18.167000,Clinic - Freestanding
+57701,30,013,7,2025-12-22 16:36:18.160000,Hospital Outpatient
+57701,30,012,7,2025-12-22 16:36:18.157000,Hospital Inpatient (Medicare Part B only)
+57706,14,012,7,2025-10-06 18:48:51.777000,Hospital Inpatient (Medicare Part B only)
+57706,14,011,7,2025-10-06 18:48:51.777000,Hospital Inpatient (Including Medicare Part A)
+57706,14,013,7,2025-10-06 18:48:51.777000,Hospital Outpatient
+57706,14,071,7,2025-10-06 18:48:51.777000,Clinic - Rural Health
+57706,14,077,7,2025-10-06 18:48:51.777000,Clinic - Federally Qualified Health Center (FQHC)
+57706,14,085,7,2025-10-06 18:48:51.777000,Critical Access Hospital
+57706,14,999,7,2025-10-06 18:48:51.777000,Not Applicable
+57715,55,999,7,2025-12-05 14:36:30.267000,Not Applicable
+57718,20,999,7,2025-08-06 17:50:58.420000,Not Applicable
+57718,20,085,7,2025-08-06 17:50:58.420000,Critical Access Hospital
+57718,20,013,7,2025-08-06 17:50:58.420000,Hospital Outpatient
+57718,20,023,7,2025-08-06 17:50:58.420000,Skilled Nursing - Outpatient
+57718,20,022,7,2025-08-06 17:50:58.420000,Skilled Nursing - Inpatient (Medicare Part B only)
+57718,20,012,7,2025-08-06 17:50:58.420000,Hospital Inpatient (Medicare Part B only)
+57726,7,999,7,2023-10-13 11:44:21.213000,Not Applicable
+57751,28,999,7,2026-07-17 17:54:02.360000,Not Applicable
+57752,18,999,7,2022-02-11 14:12:32.760000,Not Applicable
+57753,12,085,7,2022-01-14 13:53:24.610000,Critical Access Hospital
+57753,12,083,7,2022-01-14 13:53:24.607000,Ambulatory Surgery Center
+57753,12,077,7,2022-01-14 13:53:24.607000,Clinic - Federally Qualified Health Center (FQHC)
+57753,12,071,7,2022-01-14 13:53:24.603000,Clinic - Rural Health
+57753,12,073,7,2022-01-14 13:53:24.607000,Clinic - Freestanding
+57753,12,012,7,2022-01-14 13:53:24.603000,Hospital Inpatient (Medicare Part B only)
+57753,12,013,7,2022-01-14 13:53:24.603000,Hospital Outpatient
+57755,18,999,7,2024-03-27 14:37:53.057000,Not Applicable
+57765,26,999,7,2026-06-18 14:20:01.897000,Not Applicable
+57767,12,999,7,2024-03-01 14:34:11.727000,Not Applicable
+57778,59,999,7,2026-07-10 13:48:22.947000,Not Applicable
+57779,8,999,7,2025-01-24 17:40:08.070000,Not Applicable
+57780,27,999,7,2025-09-26 14:09:55.897000,Not Applicable
+57787,47,999,7,2026-04-02 15:33:59.213000,Not Applicable
+57788,41,999,7,2025-12-12 20:04:07.217000,Not Applicable
+57791,12,999,7,2025-10-06 18:48:51.577000,Not Applicable
+57804,41,999,7,2025-09-26 14:07:50.953000,Not Applicable
+57826,37,085,7,2026-07-14 22:42:59.627000,Critical Access Hospital
+57826,37,073,7,2026-07-14 22:42:59.627000,Clinic - Freestanding
+57826,37,071,7,2026-07-14 22:42:59.627000,Clinic - Rural Health
+57826,37,013,7,2026-07-14 22:42:59.627000,Hospital Outpatient
+57826,37,012,7,2026-07-14 22:42:59.627000,Hospital Inpatient (Medicare Part B only)
+57839,14,999,7,2025-04-04 13:39:26.417000,Not Applicable
+57842,11,023,7,2026-02-09 16:51:07.740000,Skilled Nursing - Outpatient
+57863,41,013,7,2026-06-04 16:49:39.220000,Hospital Outpatient
+57863,41,085,7,2026-06-04 16:49:39.220000,Critical Access Hospital
+57872,10,999,7,2022-02-11 14:13:27.767000,Not Applicable
+57884,10,999,7,2025-04-04 13:40:37.357000,Not Applicable
+57891,39,999,7,2026-05-05 19:48:55.190000,Not Applicable
+57913,11,999,7,2025-09-16 17:35:55.043000,Not Applicable
+57948,38,999,7,2026-06-09 19:34:53.373000,Not Applicable
+57954,73,085,7,2025-11-10 19:27:27.973000,Critical Access Hospital
+57954,73,071,7,2025-11-10 19:27:27.970000,Clinic - Rural Health
+57954,73,077,7,2025-11-10 19:27:27.970000,Clinic - Federally Qualified Health Center (FQHC)
+57954,73,013,7,2025-11-10 19:27:27.967000,Hospital Outpatient
+58110,22,999,7,2025-04-11 13:05:43.083000,Not Applicable
+58116,29,999,7,2026-07-14 22:43:00.230000,Not Applicable
+58127,19,999,7,2025-09-30 23:50:43.893000,Not Applicable
+58133,23,999,7,2025-10-14 13:00:35.397000,Not Applicable
+58136,22,999,7,2025-04-11 13:06:38.330000,Not Applicable
+58181,24,999,7,2026-01-26 13:24:19.970000,Not Applicable
+58227,20,999,7,2026-02-23 13:14:49.820000,Not Applicable
+58243,7,999,7,2026-01-23 13:54:24.757000,Not Applicable
+58250,19,999,7,2026-01-23 14:14:12.610000,Not Applicable
+58264,8,999,7,2026-01-23 13:55:23.333000,Not Applicable
+58350,24,085,7,2026-05-15 13:00:17.780000,Critical Access Hospital
+58350,24,073,7,2026-05-15 13:00:17.777000,Clinic - Freestanding
+58350,24,071,7,2026-05-15 13:00:17.773000,Clinic - Rural Health
+58350,24,013,7,2026-05-15 13:00:17.770000,Hospital Outpatient
+58350,24,012,7,2026-05-15 13:00:17.770000,Hospital Inpatient (Medicare Part B only)
+58362,10,013,7,2023-11-08 14:12:36.543000,Hospital Outpatient
+58364,39,013,7,2026-07-17 13:58:20.867000,Hospital Outpatient
+58364,39,012,7,2026-07-17 13:58:20.863000,Hospital Inpatient (Medicare Part B only)
+58364,39,071,7,2026-07-17 13:58:20.870000,Clinic - Rural Health
+58364,39,073,7,2026-07-17 13:58:20.870000,Clinic - Freestanding
+58364,39,085,7,2026-07-17 13:58:20.873000,Critical Access Hospital
+58403,27,085,7,2026-05-12 13:14:35.183000,Critical Access Hospital
+58403,27,073,7,2026-05-12 13:14:35.157000,Clinic - Freestanding
+58403,27,071,7,2026-05-12 13:14:35.140000,Clinic - Rural Health
+58403,27,012,7,2026-05-12 13:14:35.090000,Hospital Inpatient (Medicare Part B only)
+58403,27,013,7,2026-05-12 13:14:35.113000,Hospital Outpatient
+58410,9,999,7,2022-01-14 13:55:22.223000,Not Applicable
+58414,11,999,7,2022-01-14 13:47:59.600000,Not Applicable
+58423,48,999,7,2025-12-05 14:35:37.370000,Not Applicable
+58428,29,999,7,2026-04-02 15:09:07.580000,Not Applicable
+58436,13,999,7,2025-09-04 18:54:29.823000,Not Applicable
+58477,22,085,7,2026-05-21 14:03:05.133000,Critical Access Hospital
+58477,22,071,7,2026-05-21 14:03:05.130000,Clinic - Rural Health
+58477,22,073,7,2026-05-21 14:03:05.130000,Clinic - Freestanding
+58477,22,013,7,2026-05-21 14:03:05.127000,Hospital Outpatient
+58477,22,012,7,2026-05-21 14:03:05.127000,Hospital Inpatient (Medicare Part B only)
+58565,52,012,7,2026-08-04 19:42:55.937000,Hospital Inpatient (Medicare Part B only)
+58565,52,013,7,2026-08-04 19:42:55.940000,Hospital Outpatient
+58565,52,018,7,2026-08-04 19:42:55.940000,Hospital - Swing Beds
+58565,52,023,7,2026-08-04 19:42:55.947000,Skilled Nursing - Outpatient
+58565,52,022,7,2026-08-04 19:42:55.943000,Skilled Nursing - Inpatient (Medicare Part B only)
+58565,52,073,7,2026-08-04 19:42:55.950000,Clinic - Freestanding
+58565,52,074,7,2026-08-04 19:42:55.950000,Clinic - Outpatient Rehabilitation Facility (ORF)
+58565,52,075,7,2026-08-04 19:42:55.953000,Clinic - Comprehensive Outpatient Rehabilitation Facility (CORF)
+58565,52,077,7,2026-08-04 19:42:55.957000,Clinic - Federally Qualified Health Center (FQHC)
+58565,52,083,7,2026-08-04 19:42:55.957000,Ambulatory Surgery Center
+58565,52,071,7,2026-08-04 19:42:55.947000,Clinic - Rural Health
+58565,52,085,7,2026-08-04 19:42:55.960000,Critical Access Hospital
+58573,13,999,7,2026-02-06 13:52:48.340000,Not Applicable
+58575,38,999,7,2026-01-23 14:10:48.830000,Not Applicable
+58577,33,999,7,2026-01-23 14:18:05.307000,Not Applicable
+58582,20,0,7,2026-07-27 16:51:59.793000,TBD
+58592,19,999,7,2025-09-26 14:06:34.047000,Not Applicable
+58801,85,999,7,2026-07-10 13:49:04.400000,Not Applicable
+58812,81,999,7,2026-07-10 13:49:41.160000,Not Applicable
+58865,24,999,7,2025-10-14 13:00:34.227000,Not Applicable
+58893,19,999,7,2026-07-14 22:42:58.317000,Not Applicable
+58918,90,999,7,2026-07-10 13:51:16.177000,Not Applicable
+59049,16,085,7,2023-11-22 12:43:44.133000,Critical Access Hospital
+59049,16,083,7,2023-11-22 12:43:44.133000,Ambulatory Surgery Center
+59049,16,013,7,2023-11-22 12:43:44.130000,Hospital Outpatient
+59049,16,012,7,2023-11-22 12:43:44.127000,Hospital Inpatient (Medicare Part B only)
+59049,16,018,7,2023-11-22 12:43:44.130000,Hospital - Swing Beds
+59101,28,0,7,2026-07-14 22:43:01.500000,TBD
+59123,28,999,7,2025-01-03 19:42:36.217000,Not Applicable
+59125,38,999,7,2025-01-03 19:41:28.710000,Not Applicable
+59154,13,085,7,2026-03-16 18:20:07.760000,Critical Access Hospital
+59154,13,083,7,2026-03-16 18:20:07.760000,Ambulatory Surgery Center
+59154,13,073,7,2026-03-16 18:20:07.757000,Clinic - Freestanding
+59154,13,071,7,2026-03-16 18:20:07.753000,Clinic - Rural Health
+59154,13,012,7,2026-03-16 18:20:07.750000,Hospital Inpatient (Medicare Part B only)
+59154,13,013,7,2026-03-16 18:20:07.753000,Hospital Outpatient
+59192,15,013,7,2024-11-08 16:43:49.857000,Hospital Outpatient
+59192,15,012,7,2024-11-08 16:43:49.843000,Hospital Inpatient (Medicare Part B only)
+59192,15,071,7,2024-11-08 16:43:49.867000,Clinic - Rural Health
+59192,15,073,7,2024-11-08 16:43:49.877000,Clinic - Freestanding
+59192,15,083,7,2024-11-08 16:43:49.880000,Ambulatory Surgery Center
+59192,15,085,7,2024-11-08 16:43:49.887000,Critical Access Hospital
+59233,19,085,7,2026-07-14 22:43:03.273000,Critical Access Hospital
+59233,19,083,7,2026-07-14 22:43:03.273000,Ambulatory Surgery Center
+59233,19,073,7,2026-07-14 22:43:03.273000,Clinic - Freestanding
+59233,19,071,7,2026-07-14 22:43:03.273000,Clinic - Rural Health
+59233,19,012,7,2026-07-14 22:43:03.273000,Hospital Inpatient (Medicare Part B only)
+59233,19,013,7,2026-07-14 22:43:03.273000,Hospital Outpatient
+59244,18,013,7,2026-02-23 13:14:49.747000,Hospital Outpatient
+59244,18,012,7,2026-02-23 13:14:49.747000,Hospital Inpatient (Medicare Part B only)
+59244,18,071,7,2026-02-23 13:14:49.747000,Clinic - Rural Health
+59244,18,073,7,2026-02-23 13:14:49.747000,Clinic - Freestanding
+59244,18,083,7,2026-02-23 13:14:49.747000,Ambulatory Surgery Center
+59244,18,085,7,2026-02-23 13:14:49.747000,Critical Access Hospital
+59257,11,085,7,2024-12-18 15:04:19.783000,Critical Access Hospital
+59257,11,083,7,2024-12-18 15:04:19.780000,Ambulatory Surgery Center
+59257,11,073,7,2024-12-18 15:04:19.773000,Clinic - Freestanding
+59257,11,071,7,2024-12-18 15:04:19.773000,Clinic - Rural Health
+59257,11,012,7,2024-12-18 15:04:19.770000,Hospital Inpatient (Medicare Part B only)
+59257,11,013,7,2024-12-18 15:04:19.770000,Hospital Outpatient
+59268,27,999,7,2025-01-24 14:03:22.753000,Not Applicable
+59270,26,999,7,2025-01-24 14:03:58.973000,Not Applicable
+59480,10,083,7,2025-09-18 19:56:26.187000,Ambulatory Surgery Center
+59480,10,085,7,2025-09-18 19:56:26.187000,Critical Access Hospital
+59480,10,071,7,2025-09-18 19:56:26.180000,Clinic - Rural Health
+59480,10,073,7,2025-09-18 19:56:26.183000,Clinic - Freestanding
+59480,10,013,7,2025-09-18 19:56:26.180000,Hospital Outpatient
+59480,10,012,7,2025-09-18 19:56:26.177000,Hospital Inpatient (Medicare Part B only)
+59487,15,012,7,2026-07-14 22:43:04.247000,Hospital Inpatient (Medicare Part B only)
+59487,15,013,7,2026-07-14 22:43:04.247000,Hospital Outpatient
+59487,15,073,7,2026-07-14 22:43:04.247000,Clinic - Freestanding
+59487,15,071,7,2026-07-14 22:43:04.247000,Clinic - Rural Health
+59487,15,085,7,2026-07-14 22:43:04.247000,Critical Access Hospital
+59487,15,083,7,2026-07-14 22:43:04.247000,Ambulatory Surgery Center
+59491,7,999,7,2023-07-21 14:46:30.070000,Not Applicable
+59498,10,085,7,2026-01-27 16:44:14.350000,Critical Access Hospital
+59498,10,071,7,2026-01-27 16:44:14.343000,Clinic - Rural Health
+59498,10,073,7,2026-01-27 16:44:14.347000,Clinic - Freestanding
+59498,10,083,7,2026-01-27 16:44:14.350000,Ambulatory Surgery Center
+59498,10,013,7,2026-01-27 16:44:14.343000,Hospital Outpatient
+59498,10,012,7,2026-01-27 16:44:14.340000,Hospital Inpatient (Medicare Part B only)
+59521,11,999,7,2026-01-12 13:44:34.240000,Not Applicable
+59553,11,085,7,2026-01-22 20:10:15.690000,Critical Access Hospital
+59553,11,083,7,2026-01-22 20:10:15.690000,Ambulatory Surgery Center
+59553,11,073,7,2026-01-22 20:10:15.687000,Clinic - Freestanding
+59553,11,071,7,2026-01-22 20:10:15.683000,Clinic - Rural Health
+59553,11,012,7,2026-01-22 20:10:15.680000,Hospital Inpatient (Medicare Part B only)
+59553,11,013,7,2026-01-22 20:10:15.680000,Hospital Outpatient
+59608,32,013,7,2026-04-04 15:22:20.153000,Hospital Outpatient
+59608,32,012,7,2026-04-04 15:22:20.150000,Hospital Inpatient (Medicare Part B only)
+59608,32,011,7,2026-04-04 15:22:20.147000,Hospital Inpatient (Including Medicare Part A)
+59608,32,085,7,2026-04-04 15:22:20.153000,Critical Access Hospital
+59624,19,085,7,2026-03-30 15:54:26.657000,Critical Access Hospital
+59624,19,011,7,2026-03-30 15:54:26.650000,Hospital Inpatient (Including Medicare Part A)
+59624,19,012,7,2026-03-30 15:54:26.650000,Hospital Inpatient (Medicare Part B only)
+59624,19,013,7,2026-03-30 15:54:26.653000,Hospital Outpatient
+59634,10,013,7,2026-04-02 13:25:16.750000,Hospital Outpatient
+59634,10,012,7,2026-04-02 13:25:16.750000,Hospital Inpatient (Medicare Part B only)
+59634,10,011,7,2026-04-02 13:25:16.747000,Hospital Inpatient (Including Medicare Part A)
+59634,10,085,7,2026-04-02 13:25:16.753000,Critical Access Hospital
+59641,35,0,7,2026-07-21 12:13:50.643000,TBD
+59654,4,999,7,2024-05-21 14:17:38.870000,Not Applicable
+59657,9,011,7,2025-09-16 14:35:04.130000,Hospital Inpatient (Including Medicare Part A)
+59664,17,011,7,2026-05-21 13:59:57.943000,Hospital Inpatient (Including Medicare Part A)
+59664,17,012,7,2026-05-21 13:59:57.947000,Hospital Inpatient (Medicare Part B only)
+59664,17,013,7,2026-05-21 13:59:57.950000,Hospital Outpatient
+59664,17,085,7,2026-05-21 13:59:57.950000,Critical Access Hospital
+59668,29,999,7,2026-04-24 14:05:55.150000,Not Applicable
+59674,18,999,7,2026-04-24 14:06:43.637000,Not Applicable
+59764,16,999,7,2026-01-23 14:18:48.910000,Not Applicable
+59766,29,999,7,2026-01-23 14:11:37.820000,Not Applicable
+59807,8,085,7,2026-07-27 12:14:38.923000,Critical Access Hospital
+59807,8,083,7,2026-07-27 12:14:38.920000,Ambulatory Surgery Center
+59807,8,013,7,2026-07-27 12:14:38.920000,Hospital Outpatient
+59915,27,999,7,2026-07-15 21:12:16.773000,Not Applicable
+59933,9,999,7,2024-10-04 15:29:35.880000,Not Applicable
+59940,5,999,7,2024-10-04 15:30:23.047000,Not Applicable
+60178,3,0,7,2025-05-06 21:48:44.973000,TBD
+60195,4,999,7,2025-05-22 20:22:10.470000,Not Applicable
+60196,4,999,7,2025-05-22 20:22:41.947000,Not Applicable
+60249,5,085,7,2025-09-18 15:33:55.667000,Critical Access Hospital
+60249,5,011,7,2025-09-18 15:33:55.660000,Hospital Inpatient (Including Medicare Part A)
+60249,5,013,7,2025-09-18 15:33:55.667000,Hospital Outpatient
+60249,5,012,7,2025-09-18 15:33:55.663000,Hospital Inpatient (Medicare Part B only)
+60250,8,012,7,2026-03-26 12:01:44.263000,Hospital Inpatient (Medicare Part B only)
+60250,8,013,7,2026-03-26 12:01:44.263000,Hospital Outpatient
+60250,8,011,7,2026-03-26 12:01:44.260000,Hospital Inpatient (Including Medicare Part A)
+60250,8,085,7,2026-03-26 12:01:44.267000,Critical Access Hospital
+60295,3,085,7,2025-09-17 13:30:49.017000,Critical Access Hospital
+60295,3,083,7,2025-09-17 13:30:49.013000,Ambulatory Surgery Center
+60295,3,071,7,2025-09-17 13:30:49.010000,Clinic - Rural Health
+60295,3,073,7,2025-09-17 13:30:49.010000,Clinic - Freestanding
+60295,3,013,7,2025-09-17 13:30:49.007000,Hospital Outpatient
+60295,3,012,7,2025-09-17 13:30:49.007000,Hospital Inpatient (Medicare Part B only)
+60297,3,012,7,2025-09-19 13:12:08.883000,Hospital Inpatient (Medicare Part B only)
+60297,3,013,7,2025-09-19 13:12:08.883000,Hospital Outpatient
+60297,3,073,7,2025-09-19 13:12:08.890000,Clinic - Freestanding
+60297,3,071,7,2025-09-19 13:12:08.887000,Clinic - Rural Health
+60297,3,083,7,2025-09-19 13:12:08.890000,Ambulatory Surgery Center
+60297,3,085,7,2025-09-19 13:12:08.893000,Critical Access Hospital
+60299,3,085,7,2025-09-16 18:35:54.477000,Critical Access Hospital
+60299,3,083,7,2025-09-16 18:35:54.473000,Ambulatory Surgery Center
+60299,3,071,7,2025-09-16 18:35:54.470000,Clinic - Rural Health
+60299,3,073,7,2025-09-16 18:35:54.470000,Clinic - Freestanding
+60299,3,013,7,2025-09-16 18:35:54.467000,Hospital Outpatient
+60299,3,012,7,2025-09-16 18:35:54.463000,Hospital Inpatient (Medicare Part B only)
+60301,3,012,7,2025-09-18 14:45:05.477000,Hospital Inpatient (Medicare Part B only)
+60301,3,013,7,2025-09-18 14:45:05.480000,Hospital Outpatient
+60301,3,073,7,2025-09-18 14:45:05.483000,Clinic - Freestanding
+60301,3,071,7,2025-09-18 14:45:05.483000,Clinic - Rural Health
+60301,3,083,7,2025-09-18 14:45:05.487000,Ambulatory Surgery Center
+60301,3,085,7,2025-09-18 14:45:05.493000,Critical Access Hospital
+60314,5,999,7,2025-09-05 17:38:49.060000,Not Applicable
+60315,4,999,7,2026-03-27 16:53:30.660000,Not Applicable
+60317,4,999,7,2025-09-05 17:42:48.600000,Not Applicable
+60318,5,999,7,2026-03-27 16:54:22.610000,Not Applicable
+60321,2,085,7,2025-09-16 17:46:47.797000,Critical Access Hospital
+60321,2,083,7,2025-09-16 17:46:47.797000,Ambulatory Surgery Center
+60321,2,071,7,2025-09-16 17:46:47.790000,Clinic - Rural Health
+60321,2,073,7,2025-09-16 17:46:47.793000,Clinic - Freestanding
+60321,2,013,7,2025-09-16 17:46:47.790000,Hospital Outpatient
+60321,2,012,7,2025-09-16 17:46:47.787000,Hospital Inpatient (Medicare Part B only)
+60333,12,999,7,2026-02-13 17:53:58.307000,Not Applicable
+60340,11,999,7,2026-02-13 17:54:53.913000,Not Applicable
+60407,4,085,7,2026-05-13 18:27:50.487000,Critical Access Hospital
+60407,4,083,7,2026-05-13 18:27:50.483000,Ambulatory Surgery Center
+60407,4,013,7,2026-05-13 18:27:50.480000,Hospital Outpatient
+60410,6,013,7,2026-05-14 12:42:23.830000,Hospital Outpatient
+60410,6,083,7,2026-05-14 12:42:23.833000,Ambulatory Surgery Center
+60410,6,085,7,2026-05-14 12:42:23.833000,Critical Access Hospital
+60418,3,085,7,2026-05-14 11:53:39.593000,Critical Access Hospital
+60418,3,083,7,2026-05-14 11:53:39.590000,Ambulatory Surgery Center
+60418,3,013,7,2026-05-14 11:53:39.590000,Hospital Outpatient
+60420,5,013,7,2026-05-14 12:48:21.687000,Hospital Outpatient
+60420,5,085,7,2026-05-14 12:48:21.690000,Critical Access Hospital
+60420,5,083,7,2026-05-14 12:48:21.687000,Ambulatory Surgery Center
+60423,12,999,7,2026-05-08 16:15:01.120000,Not Applicable
+60425,4,999,7,2026-05-08 16:16:01.380000,Not Applicable
+60432,4,085,7,2026-05-14 20:00:12.043000,Critical Access Hospital
+60432,4,083,7,2026-05-14 20:00:12.033000,Ambulatory Surgery Center
+60432,4,013,7,2026-05-14 20:00:12.023000,Hospital Outpatient
+60435,3,013,7,2026-05-12 00:12:23.470000,Hospital Outpatient
+60435,3,012,7,2026-05-12 00:12:23.460000,Hospital Inpatient (Medicare Part B only)
+60435,3,011,7,2026-05-12 00:12:23.450000,Hospital Inpatient (Including Medicare Part A)
+60435,3,022,7,2026-05-12 00:12:23.477000,Skilled Nursing - Inpatient (Medicare Part B only)
+60435,3,023,7,2026-05-12 00:12:23.487000,Skilled Nursing - Outpatient
+60435,3,085,7,2026-05-12 00:12:23.503000,Critical Access Hospital
+60435,3,077,7,2026-05-12 00:12:23.500000,Clinic - Federally Qualified Health Center (FQHC)
+60435,3,073,7,2026-05-12 00:12:23.497000,Clinic - Freestanding
+60435,3,072,7,2026-05-12 00:12:23.493000,Clinic - Hospital Based or Independent Renal Dialysis Center
+60435,3,071,7,2026-05-12 00:12:23.493000,Clinic - Rural Health

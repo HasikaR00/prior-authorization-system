@@ -1,0 +1,140 @@
+article_id,article_version,icd10_pcs_code_id,icd10_pcs_code_version,icd10_pcs_code_group,range,sort_order,description,last_updated
+57765,26,0SP90JZ,10,1,N,57251,"Removal of Synthetic Substitute from Right Hip Joint, Open Approach",2026-06-18 14:22:18
+57765,26,0SPB0JZ,10,1,N,57285,"Removal of Synthetic Substitute from Left Hip Joint, Open Approach",2026-06-18 14:22:18
+57765,26,0SR9019,10,1,N,57806,"Replacement of Right Hip Joint with Metal Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR901A,10,1,N,57807,"Replacement of Right Hip Joint with Metal Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR901Z,10,1,N,57808,"Replacement of Right Hip Joint with Metal Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR9029,10,1,N,57809,"Replacement of Right Hip Joint with Metal on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR902A,10,1,N,57810,"Replacement of Right Hip Joint with Metal on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR902Z,10,1,N,57811,"Replacement of Right Hip Joint with Metal on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR9039,10,1,N,57812,"Replacement of Right Hip Joint with Ceramic Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR903A,10,1,N,57813,"Replacement of Right Hip Joint with Ceramic Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR903Z,10,1,N,57814,"Replacement of Right Hip Joint with Ceramic Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR9049,10,1,N,57815,"Replacement of Right Hip Joint with Ceramic on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR904A,10,1,N,57816,"Replacement of Right Hip Joint with Ceramic on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR904Z,10,1,N,57817,"Replacement of Right Hip Joint with Ceramic on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR9069,10,1,N,57818,"Replacement of Right Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR906A,10,1,N,57819,"Replacement of Right Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR906Z,10,1,N,57820,"Replacement of Right Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR907Z,10,1,N,57821,"Replacement of Right Hip Joint with Autologous Tissue Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR90EZ,10,1,N,57822,"Replacement of Right Hip Joint with Articulating Spacer, Open Approach",2026-06-18 14:22:18
+57765,26,0SR90J9,10,1,N,57823,"Replacement of Right Hip Joint with Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR90JA,10,1,N,57824,"Replacement of Right Hip Joint with Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SR90JZ,10,1,N,57825,"Replacement of Right Hip Joint with Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SR90KZ,10,1,N,57826,"Replacement of Right Hip Joint with Nonautologous Tissue Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB019,10,1,N,57841,"Replacement of Left Hip Joint with Metal Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB01A,10,1,N,57842,"Replacement of Left Hip Joint with Metal Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB01Z,10,1,N,57843,"Replacement of Left Hip Joint with Metal Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB029,10,1,N,57844,"Replacement of Left Hip Joint with Metal on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB02A,10,1,N,57845,"Replacement of Left Hip Joint with Metal on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB02Z,10,1,N,57846,"Replacement of Left Hip Joint with Metal on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB039,10,1,N,57847,"Replacement of Left Hip Joint with Ceramic Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB03A,10,1,N,57848,"Replacement of Left Hip Joint with Ceramic Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB03Z,10,1,N,57849,"Replacement of Left Hip Joint with Ceramic Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB049,10,1,N,57850,"Replacement of Left Hip Joint with Ceramic on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB04A,10,1,N,57851,"Replacement of Left Hip Joint with Ceramic on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB04Z,10,1,N,57852,"Replacement of Left Hip Joint with Ceramic on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB069,10,1,N,57853,"Replacement of Left Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB06A,10,1,N,57854,"Replacement of Left Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB06Z,10,1,N,57855,"Replacement of Left Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB07Z,10,1,N,57856,"Replacement of Left Hip Joint with Autologous Tissue Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB0EZ,10,1,N,57857,"Replacement of Left Hip Joint with Articulating Spacer, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB0J9,10,1,N,57858,"Replacement of Left Hip Joint with Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB0JA,10,1,N,57859,"Replacement of Left Hip Joint with Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB0JZ,10,1,N,57860,"Replacement of Left Hip Joint with Synthetic Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SRB0KZ,10,1,N,57861,"Replacement of Left Hip Joint with Nonautologous Tissue Substitute, Open Approach",2026-06-18 14:22:18
+57765,26,0SW90JZ,10,1,N,58678,"Revision of Synthetic Substitute in Right Hip Joint, Open Approach",2026-06-18 14:22:18
+57765,26,0SWB0JZ,10,1,N,58716,"Revision of Synthetic Substitute in Left Hip Joint, Open Approach",2026-06-18 14:22:18
+57765,26,0SPC0JZ,10,2,N,57316,"Removal of Synthetic Substitute from Right Knee Joint, Open Approach",2026-06-18 14:22:19
+57765,26,0SPD0JZ,10,2,N,57358,"Removal of Synthetic Substitute from Left Knee Joint, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC069,10,2,N,57862,"Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC06A,10,2,N,57863,"Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC06Z,10,2,N,57864,"Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC07Z,10,2,N,57867,"Replacement of Right Knee Joint with Autologous Tissue Substitute, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0EZ,10,2,N,57868,"Replacement of Right Knee Joint with Articulating Spacer, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0J9,10,2,N,57869,"Replacement of Right Knee Joint with Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0JA,10,2,N,57870,"Replacement of Right Knee Joint with Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0JZ,10,2,N,57871,"Replacement of Right Knee Joint with Synthetic Substitute, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0M9,10,2,N,57878,"Replacement of Right Knee Joint with Lateral Unicondylar Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0MA,10,2,N,57879,"Replacement of Right Knee Joint with Lateral Unicondylar Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0MZ,10,2,N,57880,"Replacement of Right Knee Joint with Lateral Unicondylar Synthetic Substitute, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0N9,10,2,N,57881,"Replacement of Right Knee Joint with Patellofemoral Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0NA,10,2,N,57882,"Replacement of Right Knee Joint with Patellofemoral Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRC0NZ,10,2,N,57883,"Replacement of Right Knee Joint with Patellofemoral Synthetic Substitute, Open Approach",2026-06-18 14:22:19
+57765,26,0SRD0EZ,10,2,N,57890,"Replacement of Left Knee Joint with Articulating Spacer, Open Approach",2026-06-18 14:22:19
+57765,26,0SRD0M9,10,2,N,57900,"Replacement of Left Knee Joint with Lateral Unicondylar Synthetic Substitute, Cemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRD0MA,10,2,N,57901,"Replacement of Left Knee Joint with Lateral Unicondylar Synthetic Substitute, Uncemented, Open Approach",2026-06-18 14:22:19
+57765,26,0SRD0MZ,10,2,N,57902,"Replacement of Left Knee Joint with Lateral Unicondylar Synthetic Substitute, Open Approach",2026-06-18 14:22:19
+58821,7,02H43JZ,2,1,N,4787,"Insertion of Pacemaker Lead into Coronary Vein, Percutaneous Approach",2022-03-09 15:36:34
+58821,7,02H44JZ,2,1,N,4796,"Insertion of Pacemaker Lead into Coronary Vein, Percutaneous Endoscopic Approach",2022-03-09 15:36:34
+58821,7,02HL0JZ,2,1,N,4901,"Insertion of Pacemaker Lead into Left Ventricle, Open Approach",2022-03-09 15:36:34
+58821,7,02HL3JZ,2,1,N,4910,"Insertion of Pacemaker Lead into Left Ventricle, Percutaneous Approach",2022-03-09 15:36:34
+58821,7,0JH607Z,2,1,N,37578,"Insertion of Cardiac Resynchronization Pacemaker Pulse Generator into Chest Subcutaneous Tissue and Fascia, Open Approach",2022-03-09 15:36:34
+58821,7,0JH637Z,2,1,N,37600,"Insertion of Cardiac Resynchronization Pacemaker Pulse Generator into Chest Subcutaneous Tissue and Fascia, Percutaneous Approach",2022-03-09 15:36:34
+58821,7,0JH807Z,2,1,N,37638,"Insertion of Cardiac Resynchronization Pacemaker Pulse Generator into Abdomen Subcutaneous Tissue and Fascia, Open Approach",2022-03-09 15:36:34
+58821,7,0JH837Z,2,1,N,37659,"Insertion of Cardiac Resynchronization Pacemaker Pulse Generator into Abdomen Subcutaneous Tissue and Fascia, Percutaneous Approach",2022-03-09 15:36:34
+59042,13,30233G2,7,1,N,70162,"Transfusion of Allogeneic Related Bone Marrow into Peripheral Vein, Percutaneous Approach",2024-08-08 18:09:09
+59042,13,30233G3,7,1,N,70163,"Transfusion of Allogeneic Unrelated Bone Marrow into Peripheral Vein, Percutaneous Approach",2024-08-08 18:09:09
+59042,13,30233Y2,7,1,N,70199,"Transfusion of Allogeneic Related Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-08-08 18:09:09
+59042,13,30233Y3,7,1,N,70200,"Transfusion of Allogeneic Unrelated Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-08-08 18:09:09
+59042,13,30243G2,7,1,N,70206,"Transfusion of Allogeneic Related Bone Marrow into Central Vein, Percutaneous Approach",2024-08-08 18:09:09
+59042,13,30243G3,7,1,N,70207,"Transfusion of Allogeneic Unrelated Bone Marrow into Central Vein, Percutaneous Approach",2024-08-08 18:09:09
+59175,11,30233G2,7,1,N,70162,"Transfusion of Allogeneic Related Bone Marrow into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233G3,7,1,N,70163,"Transfusion of Allogeneic Unrelated Bone Marrow into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233U2,7,1,N,70187,"Transfusion of Allogeneic Related T-cell Depleted Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233U3,7,1,N,70188,"Transfusion of Allogeneic Unrelated T-cell Depleted Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233X2,7,1,N,70195,"Transfusion of Allogeneic Related Cord Blood Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233X3,7,1,N,70196,"Transfusion of Allogeneic Unrelated Cord Blood Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233Y2,7,1,N,70199,"Transfusion of Allogeneic Related Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30233Y3,7,1,N,70200,"Transfusion of Allogeneic Unrelated Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243G2,7,1,N,70206,"Transfusion of Allogeneic Related Bone Marrow into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243G3,7,1,N,70207,"Transfusion of Allogeneic Unrelated Bone Marrow into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243U2,7,1,N,70231,"Transfusion of Allogeneic Related T-cell Depleted Hematopoietic Stem Cells into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243U3,7,1,N,70232,"Transfusion of Allogeneic Unrelated T-cell Depleted Hematopoietic Stem Cells into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243X2,7,1,N,70239,"Transfusion of Allogeneic Related Cord Blood Stem Cells into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243X3,7,1,N,70240,"Transfusion of Allogeneic Unrelated Cord Blood Stem Cells into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243Y2,7,1,N,70243,"Transfusion of Allogeneic Related Hematopoietic Stem Cells into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,30243Y3,7,1,N,70244,"Transfusion of Allogeneic Unrelated Hematopoietic Stem Cells into Central Vein, Percutaneous Approach",2024-09-25 13:10:32
+59175,11,XW133C8,7,1,N,79809,"Transfusion of Omidubicel into Peripheral Vein, Percutaneous Approach, New Technology Group 8",2024-09-25 13:10:32
+59175,11,XW143C8,7,1,N,79819,"Transfusion of Omidubicel into Central Vein, Percutaneous Approach, New Technology Group 8",2024-09-25 13:10:32
+59311,10,30233G2,7,1,N,70162,"Transfusion of Allogeneic Related Bone Marrow into Peripheral Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30233G3,7,1,N,70163,"Transfusion of Allogeneic Unrelated Bone Marrow into Peripheral Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30233U2,7,1,N,70187,"Transfusion of Allogeneic Related T-cell Depleted Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30233U3,7,1,N,70188,"Transfusion of Allogeneic Unrelated T-cell Depleted Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30233Y2,7,1,N,70199,"Transfusion of Allogeneic Related Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30233Y3,7,1,N,70200,"Transfusion of Allogeneic Unrelated Hematopoietic Stem Cells into Peripheral Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30243G2,7,1,N,70206,"Transfusion of Allogeneic Related Bone Marrow into Central Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30243G3,7,1,N,70207,"Transfusion of Allogeneic Unrelated Bone Marrow into Central Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30243U2,7,1,N,70231,"Transfusion of Allogeneic Related T-cell Depleted Hematopoietic Stem Cells into Central Vein, Percutaneous Approach",2024-09-18 12:58:18
+59311,10,30243U3,7,1,N,70232,"Transfusion of Allogeneic Unrelated T-cell Depleted Hematopoietic Stem Cells into Central Vein, Percutaneous Approach",2024-09-18 12:58:18
+59657,9,5A02216,8,1,N,71868,"Assistance with Cardiac Output using Other Pump, Continuous",2025-07-17 23:00:57
+59657,9,5A0221D,8,1,N,71869,"Assistance with Cardiac Output using Impeller Pump, Continuous",2025-07-17 23:00:57
+59657,9,02RK0JZ,8,2,N,5548,"Replacement of Right Ventricle with Synthetic Substitute, Open Approach",2025-07-17 23:00:57
+59657,9,02RL0JZ,8,2,N,5556,"Replacement of Left Ventricle with Synthetic Substitute, Open Approach",2025-07-17 23:00:57
+59657,9,02WA0JZ,8,2,N,6146,"Revision of Synthetic Substitute in Heart, Open Approach",2025-07-17 23:00:57
+59723,10,GZ2ZZZZ,9,1,N,79419,Crisis Intervention,2026-01-27 16:24:58
+59723,10,GZ50ZZZ,9,1,N,79423,"Individual Psychotherapy, Interactive",2026-01-27 16:24:58
+59723,10,GZ51ZZZ,9,1,N,79424,"Individual Psychotherapy, Behavioral",2026-01-27 16:24:58
+59723,10,GZ52ZZZ,9,1,N,79425,"Individual Psychotherapy, Cognitive",2026-01-27 16:24:58
+59723,10,GZ53ZZZ,9,1,N,79426,"Individual Psychotherapy, Interpersonal",2026-01-27 16:24:58
+59723,10,GZ54ZZZ,9,1,N,79427,"Individual Psychotherapy, Psychoanalysis",2026-01-27 16:24:58
+59723,10,GZ55ZZZ,9,1,N,79428,"Individual Psychotherapy, Psychodynamic",2026-01-27 16:24:58
+59723,10,GZ56ZZZ,9,1,N,79429,"Individual Psychotherapy, Supportive",2026-01-27 16:24:58
+59723,10,GZ58ZZZ,9,1,N,79430,"Individual Psychotherapy, Cognitive-Behavioral",2026-01-27 16:24:58
+59723,10,GZ59ZZZ,9,1,N,79431,"Individual Psychotherapy, Psychophysiological",2026-01-27 16:24:58
+59723,10,GZ72ZZZ,9,1,N,79437,Family Psychotherapy,2026-01-27 16:24:58
+59723,10,GZHZZZZ,9,1,N,79449,Group Psychotherapy,2026-01-27 16:24:58
+59723,10,HZ50ZZZ,9,1,N,79481,"Individual Psychotherapy for Substance Abuse Treatment, Cognitive",2026-01-27 16:24:58
+59723,10,HZ51ZZZ,9,1,N,79482,"Individual Psychotherapy for Substance Abuse Treatment, Behavioral",2026-01-27 16:24:58
+59723,10,HZ52ZZZ,9,1,N,79483,"Individual Psychotherapy for Substance Abuse Treatment, Cognitive-Behavioral",2026-01-27 16:24:58
+59723,10,HZ54ZZZ,9,1,N,79485,"Individual Psychotherapy for Substance Abuse Treatment, Interpersonal",2026-01-27 16:24:58
+59723,10,HZ55ZZZ,9,1,N,79486,"Individual Psychotherapy for Substance Abuse Treatment, Interactive",2026-01-27 16:24:58
+59723,10,HZ56ZZZ,9,1,N,79487,"Individual Psychotherapy for Substance Abuse Treatment, Psychoeducation",2026-01-27 16:24:58
+59723,10,HZ57ZZZ,9,1,N,79488,"Individual Psychotherapy for Substance Abuse Treatment, Motivational Enhancement",2026-01-27 16:24:58
+59723,10,HZ58ZZZ,9,1,N,79489,"Individual Psychotherapy for Substance Abuse Treatment, Confrontational",2026-01-27 16:24:58
+59723,10,HZ59ZZZ,9,1,N,79490,"Individual Psychotherapy for Substance Abuse Treatment, Supportive",2026-01-27 16:24:58
+59723,10,HZ5BZZZ,9,1,N,79491,"Individual Psychotherapy for Substance Abuse Treatment, Psychoanalysis",2026-01-27 16:24:58
+59819,18,02H63NZ,8,1,N,4836,"Insertion of Intracardiac Pacemaker into Right Atrium, Percutaneous Approach",2025-03-20 20:42:05
+59819,18,02HK3NZ,8,1,N,4905,"Insertion of Intracardiac Pacemaker into Right Ventricle, Percutaneous Approach",2025-03-20 20:42:05
+59819,18,X2H63V9,8,1,N,79487,"Insertion of Dual-Chamber Intracardiac Pacemaker into Right Atrium, Percutaneous Approach, New Technology Group 9",2025-03-20 20:42:05
+59819,18,X2HK3V9,8,1,N,79488,"Insertion of Dual-Chamber Intracardiac Pacemaker into Right Ventricle, Percutaneous Approach, New Technology Group 9",2025-03-20 20:42:05
