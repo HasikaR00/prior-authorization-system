@@ -35,7 +35,7 @@ An AI-driven healthcare **Prior Authorization System** designed to automate, eva
 |---|---|
 | **Backend Framework** | FastAPI (Python 3.10+) + Uvicorn |
 | **Databases** | MySQL (Relational DB) + ChromaDB (Vector DB for RAG) |
-| **AI / LLMs** | OpenAI API, Google GenAI SDK, Groq SDK |
+| **AI / LLMs** |  Groq SDK |
 | **Document OCR** | PyMuPDF (`fitz`), PyTesseract, Pillow |
 | **Authentication** | JWT (`PyJWT`) + `bcrypt` password hashing |
 | **Frontend Framework** | React 19 + Vite |
